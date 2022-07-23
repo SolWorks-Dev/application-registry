@@ -1,0 +1,61 @@
+[app]
+# Lower cased application name
+value=""
+# Formatted application name to present in app
+label=""
+# Array of categories, max of 3
+categories=[""]
+# Curation category flag
+is_curated=true
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo=""
+
+
+[description]
+# Short description used in search bars, mini app cards
+short=""
+# Long description used in app details
+long=""
+
+
+[links]
+# URL to app home page
+website=""
+# URL to app
+application=""
+
+# Additional app link
+[[links.other]]
+# App link name
+name=""
+# App link URL
+url=""
+
+# Additional app link
+[[links.other]]
+# app link name
+name=""
+# app link URL
+url=""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username only
+twitter=[""]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord=[""]
+
+# array of medium accounts
+# username only
+medium=[""]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram=[""]

@@ -1,0 +1,8 @@
+# Category name used as value, no spaces, no special characters
+value = "infrastructure"
+
+# Formatted category name to present in app as tag
+tag_label = "Infrastructure"
+
+# Formatted category name to present in app as heading
+heading_label = "Infrastructure"

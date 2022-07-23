@@ -1,0 +1,195 @@
+{
+  "apps": [
+    {
+      "app": {
+        "value": "mercurial",
+        "label": "Mercurial",
+        "categories": [
+          ""
+        ],
+        "is_curated": true
+      },
+      "description": {
+        "short": "",
+        "long": ""
+      },
+      "urls": {
+        "logo": "",
+        "website": "",
+        "application": "",
+        "github": "",
+        "other": [
+          {
+            "name": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "url": ""
+          }
+        ]
+      },
+      "socials": {
+        "twitter": [
+          ""
+        ],
+        "discord": [
+          ""
+        ],
+        "medium": [
+          ""
+        ],
+        "telegram": [
+          ""
+        ]
+      }
+    },
+    {
+      "app": {
+        "value": "",
+        "label": "",
+        "categories": [
+          ""
+        ],
+        "is_curated": true
+      },
+      "description": {
+        "short": "",
+        "long": ""
+      },
+      "urls": {
+        "logo": "",
+        "website": "",
+        "application": "",
+        "github": "",
+        "other": [
+          {
+            "name": "",
+            "url": ""
+          },
+          {
+            "name": "",
+            "url": ""
+          }
+        ]
+      },
+      "socials": {
+        "twitter": [
+          ""
+        ],
+        "discord": [
+          ""
+        ],
+        "medium": [
+          ""
+        ],
+        "telegram": [
+          ""
+        ]
+      }
+    },
+    {
+      "app": {
+        "value": "raydium",
+        "label": "Raydium",
+        "categories": [
+          "amm"
+        ],
+        "is_curated": true
+      },
+      "description": {
+        "short": "Automated market maker (AMM) utilising Serum’s on-chain central order book for trading",
+        "long": "Automated market maker (AMM) utilising Serum’s on-chain central order book for trading"
+      },
+      "urls": {
+        "logo": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R/logo.png",
+        "website": "https://raydium.io",
+        "application": "https://raydium.io/swap",
+        "github": "",
+        "other": [
+          {
+            "name": "Analytics",
+            "url": "https://raydium.info"
+          },
+          {
+            "name": "DEX",
+            "url": "https://dex.raydium.io"
+          }
+        ]
+      },
+      "socials": {
+        "twitter": [
+          "@RaydiumProtocol",
+          "@EspanolRaydium"
+        ],
+        "discord": [
+          "discord-code"
+        ],
+        "medium": [],
+        "telegram": []
+      }
+    }
+  ],
+  "categories": [
+    {
+      "value": "amm",
+      "tag_label": "AMM",
+      "heading_label": "AMMs"
+    },
+    {
+      "value": "analytics",
+      "tag_label": "Analytics",
+      "heading_label": "Analytics"
+    },
+    {
+      "value": "dao",
+      "tag_label": "DAO",
+      "heading_label": "DAOs"
+    },
+    {
+      "value": "dex",
+      "tag_label": "DEX",
+      "heading_label": "DEXs"
+    },
+    {
+      "value": "derivatives",
+      "tag_label": "Derivatives",
+      "heading_label": "Derivatives"
+    },
+    {
+      "value": "gaming",
+      "tag_label": "Gaming",
+      "heading_label": "Gaming"
+    },
+    {
+      "value": "infrastructure",
+      "tag_label": "Infrastructure",
+      "heading_label": "Infrastructure"
+    },
+    {
+      "value": "lending",
+      "tag_label": "Lending",
+      "heading_label": "Lending"
+    },
+    {
+      "value": "nft",
+      "tag_label": "NFT",
+      "heading_label": "NFT Communities"
+    },
+    {
+      "value": "oracle",
+      "tag_label": "Oracle",
+      "heading_label": "Oracles 🔮"
+    },
+    {
+      "value": "rpc",
+      "tag_label": "RPC",
+      "heading_label": "RPC Providers"
+    },
+    {
+      "value": "wallet",
+      "tag_label": "Wallet",
+      "heading_label": "Wallets"
+    }
+  ]
+}

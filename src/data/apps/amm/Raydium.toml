@@ -1,0 +1,61 @@
+[app]
+# Lower cased application name
+value = "raydium"
+# Formatted application name to present in app
+label = "Raydium"
+# Array of categories, max of 3
+categories = ["amm"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Automated market maker (AMM) utilising Serum’s on-chain central order book for trading"
+# Long description used in app details
+long = "Automated market maker (AMM) utilising Serum’s on-chain central order book for trading"
+
+
+[urls]
+# Url used in app
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R/logo.png"
+# Link to app home page
+website = "https://raydium.io"
+# Link to app
+application = "https://raydium.io/swap"
+# Link to github
+github = ""
+
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Analytics"
+# App link url
+url = "https://raydium.info"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "DEX"
+# app link url
+url = "https://dex.raydium.io"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username only
+twitter = ["@RaydiumProtocol", "@EspanolRaydium"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["discord-code"]
+
+# array of medium accounts
+# username only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
