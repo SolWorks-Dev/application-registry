@@ -1,0 +1,48 @@
+[app]
+# Lower cased application name
+value = "solanafm"
+# Formatted application name to present in app
+label = "Solana FM"
+# Array of categories, max of 3
+categories = ["analytics"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Bridging the gaps of data accessibility via an indexer, APIs and explorer tools on Solana."
+# Long description used in app details
+long = """Explore the entire Solana blockchain with GraphQL, all in one place.
+
+SolanaFM's infrastructure enables you to query data beyond the limits of traditional approaches, easily supporting queries that span across the history of Solana. We provide Solana's historical data through an efficient and dynamic GraphQL API, powering Solana ecosystem projects, showcasing on-chain data & analysis."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwh8ef30394eysxh00ilb0m%3Ftype%3DLOGO&w=2048&q=75"
+# URL to app home page
+website = "https://solana.fm/"
+# URL to app
+application = "https://solana.fm/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["solanafm"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["3SqREprDJN"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

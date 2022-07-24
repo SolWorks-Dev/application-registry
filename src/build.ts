@@ -56,7 +56,7 @@ class DataBuilder {
     }
 
     public async save() {
-        await writeFile(directoryPath + '/app-list.json', JSON.stringify(this._data, null, 2));
+        await writeFile(directoryPath + '/app-list.json', JSON.stringify(this._data));
         return this;
     }
 

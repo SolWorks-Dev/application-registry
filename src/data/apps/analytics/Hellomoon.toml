@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "hellomoon"
+# Formatted application name to present in app
+label = "Hello Moon"
+# Array of categories, max of 3
+categories = ["analytics"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Hello Moon is a human readable index of Solana that provides visibility into all NFT collections, DeFi tokens, and protocols on the Solana blockchain."
+# Long description used in app details
+long = "Hello Moon is a human readable index of Solana that translates complex on-chain data into simple dashboards for your favorite NFTs, DeFi tokens and protocols. HelloMoon.io categorizes projects by suspected wash trading activity, ownership overlap across collections, average USDC value in holders' wallets, floor prices, volume, etc. -- and also labels the wallets that are engaging in each ecosystem"
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fcl11f3xcz249209l6j05gxqck%3Ftype%3DLOGO&w=2048&q=75"
+# URL to app home page
+website = "https://hellomoon.io"
+# URL to app
+application = "https://www.hellomoon.io/nfts"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["HelloMoon_io"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["HelloMoon"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

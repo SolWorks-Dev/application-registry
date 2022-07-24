@@ -1,0 +1,53 @@
+[app]
+# Lower cased application name
+value = "aldrin"
+# Formatted application name to present in app
+label = "Aldrin"
+# Array of categories, max of 3
+categories = ["amm"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Aldrin is a decentralized exchange with a mission to simplify DeFi and create powerful tools to help all traders succeed, leading to more equality."
+# Long description used in app details
+long = "Aldrin is a decentralized exchange with a mission to simplify DeFi and create powerful tools to help all traders succeed, leading to more equality."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwihkq37011eysx991c85dw%3Ftype%3DLOGO&w=2048&q=75"
+# URL to app home page
+website = "https://aldrin.com/"
+# URL to app
+application = "https://dex.aldrin.com/swap"
+# Link to github
+github = "https://github.com/aldrin-exchange"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Staking"
+# App link URL
+url = "https://dex.aldrin.com/staking"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["Aldrin_Exchange"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["4VZyNxT2WU"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.aldrin.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["Aldrin_Exchange"]

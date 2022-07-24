@@ -4,57 +4,48 @@ value = "mercurial"
 # Formatted application name to present in app
 label = "Mercurial"
 # Array of categories, max of 3
-categories = [""]
+categories = ["amm"]
 # Curation category flag
 is_curated = true
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Mercurial is a stablecoin AMM building DeFi's first dynamic yield infrastructure on Solana."
 # Long description used in app details
-long = ""
+long = """Mercurial is building the infrastructure for stable and pegged assets for Solana.
+
+Mercurial vaults are market making vaults providing low slippage swaps for stables while also improving LP profits with dynamic fees and flexible capital allocation.
+
+Our focus will be on stable coins because they represent a major part of the DeFi demand across synthetic assets creation, swapping, and lending."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://www.mercurial.finance/_next/static/media/logo_rounded.bd8c9a72.svg"
 # URL to app home page
-website = ""
+website = "https://www.mercurial.finance/"
 # URL to app
-application = ""
+application = "https://www.mercurial.finance/"
 # Link to github
 github = ""
 
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
-# username only
-twitter = [""]
+# username or link only
+twitter = ["MercurialFi"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["WwFwsVtvpH"]
 
 # array of medium accounts
-# username only
-medium = [""]
+# username or link only
+medium = ["https://blog.mercurial.finance/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

@@ -1,0 +1,50 @@
+[app]
+# Lower cased application name
+value = "apeboard"
+# Formatted application name to present in app
+label = "ApeBoard"
+# Array of categories, max of 3
+categories = ["analytics"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Multi-chain DeFi Dashboard. Built by apes, for apes 🍌"
+# Long description used in app details
+long = """Ape Board is a cross-chain DeFi dashboard that allows users to have a holistic view of all their assets across 397 different protocols and 36 different networks.
+
+Unlike other portfolio trackers out there, Ape Board allow users to bundle EVM and non-EVM wallets into a single profile and track it at the same time.
+
+This feature is very convenient for users who have assets in other non-EVM compatible networks like Solana."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwh5o427533eysxr522m4z4%3Ftype%3DLOGO&w=2048&q=75"
+# URL to app home page
+website = "https://apeboard.finance/"
+# URL to app
+application = "https://apeboard.finance/dashboard"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["ape_board"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["BUmJTuK5Bm"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["IgrzTnHKm-A0RwSP"]

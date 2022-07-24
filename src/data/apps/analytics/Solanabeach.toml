@@ -1,0 +1,47 @@
+[app]
+# Lower cased application name
+value = "solanabeach"
+# Formatted application name to present in app
+label = "Solana Beach"
+# Array of categories, max of 3
+categories = ["analytics"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Explore the Solana blockchain: statistics, validators, token metrics, and news about the overall ecosystem"
+# Long description used in app details
+long = """Solanabeach is a comprehensive block explorer highlighting core Solana statistics. Stakeholders of the Solana blockchain may seamlessly explore the network's statistics, validators, and token metrics.
+
+You can support the continuous development of Solana Beach by delegating to the Solana Beach Validator"""
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwh6e028168eysxgzz1gy40%3Ftype%3DLOGO&w=2048&q=75"
+# URL to app home page
+website = "https://solanabeach.io/"
+# URL to app
+application = "https://solanabeach.io/"
+# Link to github
+github = "https://github.com/solana-beach"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["solanabeach_io"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = []
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["stakingfacilities"]

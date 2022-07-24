@@ -1,8 +1,8 @@
 # Category name used as value, no spaces, no special characters
-value = "rpc"
+value = "marketplace"
 
 # Formatted category name to present in app as tag
-tag_label = "RPC"
+tag_label = "NFT Marketplace"
 
 # Formatted category name to present in app as heading
-heading_label = "RPC Providers"
+heading_label = "NFT Marketplaces"

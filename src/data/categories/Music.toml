@@ -1,0 +1,8 @@
+# Category name used as value, no spaces, no special characters
+value = "music"
+
+# Formatted category name to present in app as tag
+tag_label = "Music"
+
+# Formatted category name to present in app as heading
+heading_label = "Music Apps"
