@@ -1,12 +1,12 @@
 [app]
 # Lower cased application name
-value = ""
+value = "cardinal"
 # Formatted application name to present in app
-label = ""
+label = "Cardinal"
 # Array of categories, max of 3
-categories = [""]
+categories = ["infrastructure"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
@@ -19,42 +19,28 @@ long = ""
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F561546307-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTPcG1cozZ2dbrzrzC9jN%252Ficon%252F90M751L00uwMQkyYGk1K%252Fcardinal-icon-dark3.png%3Falt%3Dmedia%26token%3D82be6a5b-97af-481f-abb8-5d8411b9b951"
 # URL to app home page
-website = ""
+website = "https://www.cardinal.so/"
 # URL to app
-application = ""
+application = "https://www.cardinal.so/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/cardinal-labs"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["cardinal_labs"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["7NuTbsvvUh"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []
