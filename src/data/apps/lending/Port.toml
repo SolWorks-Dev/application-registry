@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "portfinance"
 # Formatted application name to present in app
-label = ""
+label = "Port Finance"
 # Array of categories, max of 3
-categories = [""]
+categories = ["lending"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Port Finance is a lending protocol that aims to provide an entire suite of fixed income products including variable rate lending, fixed rate lending and interest rate swaps."
 # Long description used in app details
-long = ""
+long = "Port Finance is a lending protocol that aims to provide an entire suite of fixed income products including variable rate lending, fixed rate lending and interest rate swaps."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://pbs.twimg.com/profile_images/1476971812860825601/ghy7S01U_400x400.jpg"
 # URL to app home page
-website = ""
+website = "https://port.finance/"
 # URL to app
-application = ""
+application = "https://mainnet.port.finance/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/port-finance/"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["port_finance"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["nAMXAYhTb2"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://medium.com/port-finance"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = ["port_finance"]

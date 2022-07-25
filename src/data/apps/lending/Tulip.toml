@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "tulip"
 # Formatted application name to present in app
-label = ""
+label = "Tulip"
 # Array of categories, max of 3
-categories = [""]
+categories = ["lending"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Tulip Protocol is an efficient Solana yield aggregator."
 # Long description used in app details
-long = ""
+long = "Tulip Protocol is the first yield aggregation platform built on Solana with auto-compounding vault strategies. The dApp (decentralized application) is designed to take advantage of Solana's low cost, high efficiency blockchain, allowing the vault strategies to compound frequently. This allows stakers to benefit from higher APYs without requiring active management."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://avatars.githubusercontent.com/u/82137467?s=200&v=4"
 # URL to app home page
-website = ""
+website = "https://tulip.garden/"
 # URL to app
-application = ""
+application = "https://tulip.garden/overview"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/sol-farm"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["TulipProtocol"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["tulip"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://medium.com/tulipprotocol"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = ["TulipProtocol"]
