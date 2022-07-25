@@ -2,7 +2,7 @@
 # Lower cased application name
 value = "triton"
 # Formatted application name to present in app
-label = "Triton by RPCPool"
+label = "Triton One by RPCPool"
 # Array of categories, max of 3
 categories = ["infrastructure"]
 # Curation category flag
@@ -11,9 +11,9 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Triton provides RPC Pool and Guardian infrastructure services for Solana and other blockchain projects."
 # Long description used in app details
-long = ""
+long = "Triton provides RPC Pool and Guardian infrastructure services for Solana and other blockchain projects."
 
 
 [urls]
@@ -25,36 +25,22 @@ website = "https://rpcpool.com/"
 # URL to app
 application = "https://metrics.rpcpool.com/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/rpcpool"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["triton_one"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["rbgvBum63B"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = ["K0ONdq7fE4s0Mjdl"]

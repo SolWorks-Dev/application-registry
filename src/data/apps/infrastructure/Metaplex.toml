@@ -11,50 +11,36 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Metaplex enables artists and creators to launch self-hosted NFT storefronts as easily as building a website. Ultra-fast NFTs with insanely low minting fees."
 # Long description used in app details
-long = ""
+long = "Metaplex is a Solana-powered protocol that allows for the creation and minting of non-fungible tokens, auctions, and visualizing NFTs in a standard way across wallets and applications, comprised of two core components: an on-chain program, and a self-hosted front-end web2 application."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://docs.metaplex.com/logo/meta-white.svg"
 # URL to app home page
-website = ""
+website = "https://www.metaplex.com/"
 # URL to app
-application = ""
+application = "https://www.metaplex.com/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/metaplex-foundation"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["metaplex"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["metaplex"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://medium.com/metaplex"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

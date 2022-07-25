@@ -11,50 +11,36 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "QuickNode makes it simple to power your blockchain applications and scale up as you grow. Infra and tools to build + scale your Web3 app."
 # Long description used in app details
-long = ""
+long = "QuickNode makes it simple to power your blockchain applications and scale up as you grow. Infra and tools to build + scale your Web3 app. Access Solana data (latest + archive/historical) on MainNet, TestNet, DevNet, and 11 other chains via API (via https & wss) -- on a global, low-latency, auto-scaling node network."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwihqb37101eysxpv9bzf9w%3Ftype%3DLOGO&w=3840&q=75"
 # URL to app home page
-website = ""
+website = "https://www.quicknode.com/"
 # URL to app
-application = ""
+application = "https://www.quicknode.com/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/quiknode-labs"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["QuickNode"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["DkdgEqE"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

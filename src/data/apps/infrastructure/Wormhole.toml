@@ -11,50 +11,36 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Wormhole builds bridges between chains, facilitating transfers of any kind of information from one chain to another."
 # Long description used in app details
-long = ""
+long = "Wormhole is a communication bridge between Solana and other top decentralized finance (DeFi) networks. Existing projects, platforms, and communities are able to move tokenized assets seamlessly across blockchains and benefit from Solana’s high speed and low cost."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://avatars.githubusercontent.com/u/41452357?s=200&v=4"
 # URL to app home page
-website = ""
+website = "http://wormholenetwork.com/"
 # URL to app
-application = ""
+application = "https://www.portalbridge.com/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/certusone"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["wormholecrypto"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["TsjcDtTPVp"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://wormholecrypto.medium.com/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = ["wormholecrypto"]

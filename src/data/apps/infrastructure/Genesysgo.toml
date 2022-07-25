@@ -11,50 +11,36 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "GenesysGo is a Blockchain Service Provider providing robust and secure infrastructure to give blockchain developers and operators the performance they need."
 # Long description used in app details
-long = ""
+long = "GenesysGo is a Blockchain Service Provider providing robust and secure infrastructure to give blockchain developers and operators the performance they need."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwihsc37192eysxces14tuu%3Ftype%3DLOGO&w=3840&q=75"
 # URL to app home page
-website = ""
+website = "https://genesysgo.com/"
 # URL to app
-application = ""
+application = "https://genesysgo.com/"
 # Link to github
-github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
+github = "https://github.com/GenesysGo"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["genesysgo"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["genesysgo"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://genesysgo.medium.com/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

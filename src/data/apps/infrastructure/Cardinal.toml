@@ -11,9 +11,9 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Cardinal is a Solana Protocol that enables the conditional ownership of NFTs. We're powering the future of NFT utility through rentals, subscriptions, staking, tickets and more."
 # Long description used in app details
-long = ""
+long = "Cardinal is a Solana Protocol that enables the conditional ownership of NFTs. We're powering the future of NFT utility through rentals, subscriptions, staking, tickets and more."
 
 
 [urls]

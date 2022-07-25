@@ -11,50 +11,37 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Notifi provide a notification and messaging infrastructure for dapps through their SDK and web application."
 # Long description used in app details
-long = ""
+long = "Notifi provide a notification and messaging infrastructure for dapps through their SDK and web application. Embed notifications and messaging into your decentralized applications - starting with Solana."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://pbs.twimg.com/profile_images/1511827335259082768/tIMXshco_400x400.jpg"
 # URL to app home page
-website = ""
+website = "https://notifi.network/"
 # URL to app
-application = ""
+application = "https://notifi.network/"
 # Link to github
-github = ""
+github = "https://github.com/notifi-network"
 
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["NotifiNetwork"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["nAqR3mk3rv"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://medium.com/notifi"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []
