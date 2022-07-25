@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "solsea"
 # Formatted application name to present in app
-label = ""
+label = "SolSea"
 # Array of categories, max of 3
 categories = ["marketplace"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "SolSea is the biggest NFT platform on Solana, introducing NFTs with embedded licenses, lowest trading fees, and real-time analytics from on-chain data."
 # Long description used in app details
-long = ""
+long = "SolSea is the first open NFT marketplace on Solana with integrated minting. It introduces NFTs with embedded licenses (NFT-PROs), calculates Rarity Rank for collections, supports wallet funding with FTX-Pay and Moonpay, and is regularly updated with new features."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F2736127585-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MiaciU4516pMJuSYBrO%252Ficon%252FtYnhSlAaE9tqWyltHyyd%252FSolSea_Logo_Icon.png%3Falt%3Dmedia%26token%3D4f5ec118-5a88-4ada-9f6f-b2a6d50ae13b"
 # URL to app home page
-website = ""
+website = "https://solsea.io/"
 # URL to app
-application = ""
+application = "https://solsea.io/"
 # Link to github
 github = ""
 
@@ -31,16 +31,16 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["SolSeaNFT"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["DXYtfjyAPE"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = ["https://allart.medium.com/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []
