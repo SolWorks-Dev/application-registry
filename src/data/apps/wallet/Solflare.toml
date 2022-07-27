@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "solflare"
+# Formatted application name to present in app
+label = "Solflare"
+# Array of categories, max of 3
+categories = ["wallet"]
+# Curation category flag
+is_curated = true
+    
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Solrise Finance is a non-custodial digital asset management platform built on Solana."
+# Long description used in app details
+long = "Solrise Finance is a non-custodial digital asset management platform built on Solana. Anyone can permissionlessly create or invest in a Solrise fund while keeping full custody of their investments. The protocol facilitates management of investor or personal investments on Solana which can be withdrawn at any time."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://www.gitbook.com/cdn-cgi/image/height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F2013250472-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MY5ZPGDemKZHmYk14zc%252Flogo%252FrqTMTKtKOSETmNqnzp5C%252Flogo.png%3Falt%3Dmedia%26token%3Da2010772-507e-4de8-81e6-758be6a0b34c"
+# URL to app home page
+website = "https://solflare.com/"
+# URL to app
+application = "https://solflare.com/access"
+# Link to github
+github = "https://github.com/solrise-finance"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["solflare_wallet"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["solflarewallet"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.solflare.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["solrisefinance"]

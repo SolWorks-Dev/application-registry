@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "coin98"
+# Formatted application name to present in app
+label = "Coin98"
+# Array of categories, max of 3
+categories = ["wallet"]
+# Curation category flag
+is_curated = false
+    
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Coin98 is an Open Infrastructure Financial Services builder focusing on creating and developing an ecosystem of DeFi protocols, applications, NFTs on multiple blockchains."
+# Long description used in app details
+long = """Coin98 is an Open Infrastructure Financial Services builder focusing on creating and developing an ecosystem of DeFi protocols, applications, NFTs on multiple blockchains. Their mission is to fulfill untapped demand and enhance in-demand utilities in the DeFi space, helping people to access DeFi services effortlessly."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://www.coin98.com/static/media/iconC98Circle.5b1a0f1e.svg"
+# URL to app home page
+website = "https://www.coin98.com/"
+# URL to app
+application = "https://exchange.coin98.com/"
+# Link to github
+github = "https://github.com/coin98"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["coin98_wallet"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["ytkeARXYu9"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.coin98.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["coin98wallet"]

@@ -1,45 +1,45 @@
 [app]
 # Lower cased application name
-value = ""
+value = "phantom"
 # Formatted application name to present in app
-label = ""
+label = "Phantom"
 # Array of categories, max of 3
-categories = ["music"]
+categories = ["wallet"]
 # Curation category flag
-is_curated = false
+is_curated = true
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Phantom is a digital wallet reimagined for DeFi, making it safe and easy to store, send, receive, collect, and swap tokens on the Solana blockchain."
 # Long description used in app details
-long = ""
+long = "Phantom is a digital wallet reimagined for DeFi, making it safe and easy to store, send, receive, collect, and swap tokens on the Solana blockchain. Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F3632261023-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MVOiF6Zqit57q_hxJYp%252Favatar-1615495356537.png%3Fgeneration%3D1615495356841399%26alt%3Dmedia"
 # URL to app home page
-website = ""
+website = "https://phantom.app/"
 # URL to app
-application = ""
+application = "https://phantom.app/"
 # Link to github
-github = ""
+github = "https://github.com/phantom-labs"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["phantom"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = []
 
 # array of medium accounts
 # username or link only
-medium = []
+medium = ["https://phantom.app/blog"]
 
 # array of telegram groups
 # only include the text after `t.me/`
