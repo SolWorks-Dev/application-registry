@@ -4,16 +4,16 @@ value = ""
 # Formatted application name to present in app
 label = ""
 # Array of categories, max of 3
-categories = [""]
+categories = ["nft"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
 short = ""
 # Long description used in app details
-long = ""
+long = """"""
 
 
 [urls]
@@ -26,20 +26,6 @@ website = ""
 application = ""
 # Link to github
 github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]

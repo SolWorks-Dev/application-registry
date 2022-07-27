@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "cetsoncreck"
 # Formatted application name to present in app
-label = ""
+label = "CETS ON CRECK"
 # Array of categories, max of 3
-categories = [""]
+categories = ["nft"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "It’s just a bunch of crecked cets, who’re upto a whole of rat shit that are livin’, and chillin’ and vibin’ together."
 # Long description used in app details
-long = ""
+long = """It’s just a bunch of crecked cets, who’re upto a whole of rat shit that are livin’, and chillin’ and vibin’ together. They’re picking bullshit catfights, posting their own mugshots, cat calling the cops and stirring whatever they can to keep the high going."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/cats_on_crack_pfp_1644850873089.png"
 # URL to app home page
-website = ""
+website = "https://cetsoncreck.com/"
 # URL to app
-application = ""
+application = "https://cetsoncreck.com/"
 # Link to github
 github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["CetsOnCreck"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["nY43gd7gMD"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []
