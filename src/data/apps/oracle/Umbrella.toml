@@ -1,46 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "umbrellanetwork"
 # Formatted application name to present in app
-label = ""
+label = "Umbrella Network"
 # Array of categories, max of 3
-categories = ["music"]
+categories = ["oracle"]
 # Curation category flag
 is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Community owned, layer 2 oracle with the most complete and comprehensive data for blockchain applications."
 # Long description used in app details
-long = ""
+long = "Umbrella is the first truly decentralized oracle service providing low cost, massively scalable, and secure solutions for smart contracts."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://avatars.githubusercontent.com/u/71327422?s=200&v=4"
 # URL to app home page
-website = ""
+website = "https://www.umb.network/"
 # URL to app
-application = ""
+application = "https://www.umb.network/"
 # Link to github
-github = ""
+github = "https://github.com/umbrella-network"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["umbnetwork"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["QEatbAm8ey"]
 
 # array of medium accounts
 # username or link only
-medium = []
+medium = ["https://medium.com/umbrella-network"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = []
+telegram = ["umbrellanet"]
