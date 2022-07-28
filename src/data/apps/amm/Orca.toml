@@ -23,7 +23,7 @@ Additionally, you may provide liquidity to a trading pool to earn a share of tra
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://www.orca.so/static/media/orca.0284041e.svg"
+logo = "https://avatars.githubusercontent.com/u/74166425?s=200&v=4"
 # URL to app home page
 website = "https://www.orca.so/"
 # URL to app
