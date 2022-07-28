@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf ./build",
     "nobuild": "ts-node src/build.ts",
-    "nobuild::clean": "npm run clean && npm run nobuild",
+    "nobuild::clean": "npm run clean && ts-node src/build.ts",
     "build": "npm run clean && ts-node src/build.ts && npx tsc",
     "build::publish::patch": "npm run build && npm version patch && npm publish --access=public"
   },
