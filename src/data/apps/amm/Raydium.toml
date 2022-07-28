@@ -25,7 +25,7 @@ website = "https://raydium.io"
 # Link to app
 application = "https://raydium.io/swap"
 # Link to github
-github = ""
+github = "https://github.com/raydium-io"
 
 
 # Additional app link
@@ -46,11 +46,11 @@ url = "https://dex.raydium.io"
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["@RaydiumProtocol", "@EspanolRaydium"]
+twitter = ["RaydiumProtocol", "EspanolRaydium"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = ["discord-code"]
+discord = ["raydium"]
 
 # array of medium accounts
 # username or link only
