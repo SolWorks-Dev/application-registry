@@ -1,0 +1,53 @@
+[app]
+# Lower cased application name
+value = "lifinity"
+# Formatted application name to present in app
+label = "Lifinity"
+# Array of categories, max of 3
+categories = ["amm"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "The first proactive market maker on Solana designed to improve capital efficiency and reduce impermanent loss."
+# Long description used in app details
+long = "The first proactive market maker on Solana designed to improve capital efficiency and reduce impermanent loss."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwh60127782eysx82axm1kg%3Ftype%3DLOGO&w=2048&q=75"
+# URL to app home page
+website = "https://lifinity.io/"
+# URL to app
+application = "https://lifinity.io/swap/"
+# Link to github
+github = "https://github.com/LIFINITY-FOUNDATION"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.lifinity.io/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["Lifinity_io"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["K2tvfcXwWr"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/@lifinity.io"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

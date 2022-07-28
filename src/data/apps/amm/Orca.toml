@@ -1,60 +1,64 @@
 [app]
 # Lower cased application name
-value = ""
+value = "orca"
 # Formatted application name to present in app
-label = ""
+label = "Orca"
 # Array of categories, max of 3
-categories = [""]
+categories = ["amm"]
 # Curation category flag
 is_curated = true
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "The most user-friendly DEX on Solana."
 # Long description used in app details
-long = ""
+long = """Orca is the easiest way to exchange cryptocurrency on the Solana blockchain. 
+
+Here, you can exchange tokens with minimal transaction fees and lower latency than any DEX on Ethereum, all while knowing that you’re getting a fair price. 
+
+Additionally, you may provide liquidity to a trading pool to earn a share of trading fees."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://www.orca.so/static/media/orca.0284041e.svg"
 # URL to app home page
-website = ""
+website = "https://www.orca.so/"
 # URL to app
-application = ""
+application = "https://www.orca.so/"
 # Link to github
-github = ""
+github = "https://github.com/orca-so"
 
 # Additional app link
 [[urls.other]]
 # App link name
-name = ""
+name = "Podcast"
 # App link URL
-url = ""
+url = "https://open.spotify.com/show/2hd7SggAjeaRzDvp2Ga7Cp"
 
 # Additional app link
 [[urls.other]]
 # app link name
-name = ""
+name = "YouTube"
 # app link URL
-url = ""
+url = "https://www.youtube.com/channel/UCJZ92CLhZQ5axZ3QrvCAQeA"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
-# username only
-twitter = [""]
+# username or link only
+twitter = ["orca_so"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["nSwGWn5KSG"]
 
 # array of medium accounts
-# username only
-medium = [""]
+# username or link only
+medium = ["https://orca-so.medium.com/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = ["orca_so"]

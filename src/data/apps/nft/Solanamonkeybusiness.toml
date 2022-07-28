@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "solanamonkeybusiness"
+# Formatted application name to present in app
+label = "Solana Monkey Business"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "SMB is a collection of 5000 unique randomly generated SolanaMonkeys stored on the blockchain."
+# Long description used in app details
+long = """SMB is a collection of 5000 unique randomly generated SolanaMonkeys stored on the blockchain. With their accessibility-oriented design, the monkeys' goal is to invade the Solana blockchain with as many individuals as possible, building a large community around them, supported by owner-exclusive advantages, a community wallet and a future voting system. Reject humanity, return to monke."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://i.imgur.com/bMH6qNc.png"
+# URL to app home page
+website = "https://solanamonkey.business/"
+# URL to app
+application = "https://solanamonkey.business/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["SolanaMBS"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["lUSpVRNXYR"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

@@ -1,0 +1,47 @@
+[app]
+# Lower cased application name
+value = "notifi"
+# Formatted application name to present in app
+label = "Notifi"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Notifi provide a notification and messaging infrastructure for dapps through their SDK and web application."
+# Long description used in app details
+long = "Notifi provide a notification and messaging infrastructure for dapps through their SDK and web application. Embed notifications and messaging into your decentralized applications - starting with Solana."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://pbs.twimg.com/profile_images/1511827335259082768/tIMXshco_400x400.jpg"
+# URL to app home page
+website = "https://notifi.network/"
+# URL to app
+application = "https://notifi.network/"
+# Link to github
+github = "https://github.com/notifi-network"
+
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["NotifiNetwork"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["nAqR3mk3rv"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/notifi"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

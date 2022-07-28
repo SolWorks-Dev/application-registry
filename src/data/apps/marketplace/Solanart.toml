@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "solanart"
 # Formatted application name to present in app
-label = ""
+label = "Solanart"
 # Array of categories, max of 3
-categories = [""]
+categories = ["marketplace"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Buy, Bid and Browse all Solana platform NFTs in one marketplace on Solanart."
 # Long description used in app details
-long = ""
+long = "The first marketplace on Solana to buy, trade and sell non-fungible tokens (NFTs). Chat on chain with buyers/sellers, launch a project with our launchpad or just explore."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://solanart.io/solanart-logo.svg"
 # URL to app home page
-website = ""
+website = "https://solanart.io/"
 # URL to app
-application = ""
+application = "https://solanart.io/"
 # Link to github
 github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["SolanartNFT"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["solanart"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

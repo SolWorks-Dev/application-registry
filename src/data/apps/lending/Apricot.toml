@@ -1,0 +1,51 @@
+[app]
+# Lower cased application name
+value = "apricotfinance"
+# Formatted application name to present in app
+label = "Apricot Finance"
+# Array of categories, max of 3
+categories = ["lending"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Lend. Farm. Stay Protected. A next-gen lending protocol on Solana."
+# Long description used in app details
+long = """Apricot is a next-gen lending protocol that supports leveraged yield farming on Solana. Our mission is to help users maximize yield while protecting their downsides.
+
+With Apricot, users can:
+- Deposit assets to earn interests (Apricot Lend)
+- Borrow assets for trading or leveraged yield farming (Apricot Cross-Farm)
+- Pre-configure when and how automated deleveraging takes place (Apricot Assist)"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://apricot.one/static/media/apricotNavbarIcon.088a41b8.svg"
+# URL to app home page
+website = "https://apricot.one/"
+# URL to app
+application = "https://app.apricot.one/"
+# Link to github
+github = "https://github.com/Apricot-Finance"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["https://twitter.com/ApricotFinance"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["C6JrtqZF5U"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://apricotfinance.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["ApricotOfficial"]

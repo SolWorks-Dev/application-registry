@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "chainlink"
+# Formatted application name to present in app
+label = "Chainlink"
+# Array of categories, max of 3
+categories = ["oracle"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Chainlink decentralized oracle networks provide tamper-proof inputs, outputs, and computations to support advanced smart contracts on any blockchain."
+# Long description used in app details
+long = "Chainlink is a decentralized oracle network that currently provides decentralization at both the oracle and data source level. By using multiple independent Chainlink nodes, the user can defend against one oracle being a single point of failure. Similarly, using multiple data sources for sourcing market prices, the user can defend against one data source being a single source of truth."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://avatars.githubusercontent.com/u/25111032?s=200&v=4"
+# URL to app home page
+website = "https://chain.link/"
+# URL to app
+application = "https://chain.link/"
+# Link to github
+github = "https://github.com/smartcontractkit"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["chainlink"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["chainlink"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.chain.link"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["chainlinkofficial"]

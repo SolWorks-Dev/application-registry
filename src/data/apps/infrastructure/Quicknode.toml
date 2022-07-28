@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "quicknode"
+# Formatted application name to present in app
+label = "QuickNode"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "QuickNode makes it simple to power your blockchain applications and scale up as you grow. Infra and tools to build + scale your Web3 app."
+# Long description used in app details
+long = "QuickNode makes it simple to power your blockchain applications and scale up as you grow. Infra and tools to build + scale your Web3 app. Access Solana data (latest + archive/historical) on MainNet, TestNet, DevNet, and 11 other chains via API (via https & wss) -- on a global, low-latency, auto-scaling node network."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwihqb37101eysxpv9bzf9w%3Ftype%3DLOGO&w=3840&q=75"
+# URL to app home page
+website = "https://www.quicknode.com/"
+# URL to app
+application = "https://www.quicknode.com/"
+# Link to github
+github = "https://github.com/quiknode-labs"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["QuickNode"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["DkdgEqE"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

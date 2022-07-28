@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "solend"
+# Formatted application name to present in app
+label = "Solend"
+# Array of categories, max of 3
+categories = ["lending"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Solend is an algorithmic, decentralized protocol for lending and borrowing on Solana."
+# Long description used in app details
+long = "Solend is an algorithmic, decentralized protocol for lending and borrowing on Solana. Lending and borrowing has proven itself as being key in a DeFi ecosystem. However, current products are slow and expensive. On Solana, Solend can scale to being 100x faster and 100x cheaper. Solend aims to be the easiest to use and most secure solution on Solana. With Solend, you can:"
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://avatars.githubusercontent.com/u/83670346?s=200&v=4"
+# URL to app home page
+website = "https://solend.fi/"
+# URL to app
+application = "https://solend.fi/dashboard"
+# Link to github
+github = "https://github.com/solendprotocol"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["solendprotocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["aGXvPNGXDT"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.solend.fi/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

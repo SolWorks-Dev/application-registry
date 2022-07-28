@@ -45,7 +45,7 @@ url = "https://dex.raydium.io"
 
 [socials]
 # array of associated twitter accounts, max 5 
-# username only
+# username or link only
 twitter = ["@RaydiumProtocol", "@EspanolRaydium"]
 
 # array of discord invites
@@ -53,9 +53,19 @@ twitter = ["@RaydiumProtocol", "@EspanolRaydium"]
 discord = ["discord-code"]
 
 # array of medium accounts
-# username only
-medium = []
+# username or link only
+medium = ["https://raydium.medium.com/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = []
+telegram = [
+    "raydiumprotocol",
+    "RaydiumChina",
+    "raydiumkorea",
+    "raydiumjapan",
+    "RaydiumSpanish",
+    "RaydiumTurkey",
+    "RaydiumVietnam",
+    "RaydiumRussian",
+    "raydiumthailand",
+]

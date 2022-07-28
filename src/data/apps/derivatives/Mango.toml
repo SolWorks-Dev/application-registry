@@ -1,0 +1,50 @@
+[app]
+# Lower cased application name
+value = "mangomarkets"
+# Formatted application name to present in app
+label = "Mango Markets"
+# Array of categories, max of 3
+categories = ["derivatives"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Mango Markets provides a single venue to lend, borrow, swap, and leverage-trade crypto assets through a powerful risk engine."
+# Long description used in app details
+long = """Mango Markets provides a single venue to lend, borrow, swap, and leverage-trade crypto assets through a powerful risk engine.
+
+Mango Markets is built on the Solana blockchain and utilises Serum DEX for spot margin trading while perpetual futures are traded on Mango Markets' own order book. Mango Markets is governed by MNGO token holders via the Mango DAO.
+
+There are a number of ways to connect your trading system to the Mango Markets' on-chain programme. The easiest way for traders who are used to centralised exchanges, is to use the REST & WebSocket API that was purposefully designed to be easy to integrate. If you want to have the highest level of control, you will most likely want to communicate directly with the blockchain using one of the existing open source wrappers for TypeScript, Python or .NET."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F1610690202-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MVID3wF97zSdsTruiIC%252Favatar-1615230387556.png%3Fgeneration%3D1615230387858660%26alt%3Dmedia"
+# URL to app home page
+website = "https://mango.markets/"
+# URL to app
+application = "https://trade.mango.markets/"
+# Link to github
+github = "https://github.com/blockworks-foundation"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["mangomarkets"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["2uwjsBc5yw"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

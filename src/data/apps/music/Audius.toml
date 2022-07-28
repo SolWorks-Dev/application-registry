@@ -1,0 +1,48 @@
+[app]
+# Lower cased application name
+value = "audius"
+# Formatted application name to present in app
+label = "Audius"
+# Array of categories, max of 3
+categories = ["music"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Audius'​ mission is to create a fully decentralized community of artists, fans, and developers collaborating to share and defend the world’s music."
+# Long description used in app details
+long = """Audius is a decentralized, community-owned and artist-controlled music-sharing protocol. Audius provides a blockchain-based alternative to existing streaming platforms to help artists publish and monetize their work and distribute it directly to fans.
+
+The mission of the project is to give everyone the freedom to share, monetize, and listen to any audio."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://avatars.githubusercontent.com/u/38231615?s=200&v=4"
+# URL to app home page
+website = "https://audius.co/"
+# URL to app
+application = "https://audius.co/trending"
+# Link to github
+github = "https://github.com/AudiusProject"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["AudiusProject"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["audius"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.audius.co/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

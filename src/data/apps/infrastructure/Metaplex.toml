@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "metaplex"
+# Formatted application name to present in app
+label = "Metaplex"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Metaplex enables artists and creators to launch self-hosted NFT storefronts as easily as building a website. Ultra-fast NFTs with insanely low minting fees."
+# Long description used in app details
+long = "Metaplex is a Solana-powered protocol that allows for the creation and minting of non-fungible tokens, auctions, and visualizing NFTs in a standard way across wallets and applications, comprised of two core components: an on-chain program, and a self-hosted front-end web2 application."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://docs.metaplex.com/logo/meta-white.svg"
+# URL to app home page
+website = "https://www.metaplex.com/"
+# URL to app
+application = "https://www.metaplex.com/"
+# Link to github
+github = "https://github.com/metaplex-foundation"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["metaplex"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["metaplex"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/metaplex"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

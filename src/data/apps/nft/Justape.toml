@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "justape"
 # Formatted application name to present in app
-label = ""
+label = "Just Ape"
 # Array of categories, max of 3
-categories = [""]
+categories = ["nft"]
 # Curation category flag
 is_curated = true
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Just ape. A collection of 10,000 Apes that take us back to basics. None of the fluff, all of the value."
 # Long description used in app details
-long = ""
+long = """Just ape. A collection of 10,000 Apes that take us back to basics. None of the fluff, all of the value."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeicwsd4if6yxgunl4x4czy3kp2i7fzwppvbkaj4l3touqhjw4z2wfa.ipfs.dweb.link/"
 # URL to app home page
-website = ""
+website = "https://justape.co/"
 # URL to app
-application = ""
+application = "https://justape.co/"
 # Link to github
 github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["justape_"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["justape"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "hyperspace"
 # Formatted application name to present in app
-label = ""
+label = "Hyperspace"
 # Array of categories, max of 3
-categories = [""]
+categories = ["marketplace"]
 # Curation category flag
 is_curated = true
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Hyperspace.xyz is an all-in-one NFT platform built on Solana. Built by the original Solanalysis team."
 # Long description used in app details
-long = ""
+long = "Hyperspace.xyz is an all-in-one NFT platform built on Solana. Built by the original Solanalysis team."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://pbs.twimg.com/profile_images/1542343434282876928/DFajTHgI_400x400.jpg"
 # URL to app home page
-website = ""
+website = "https://hyperspace.xyz/"
 # URL to app
-application = ""
+application = "https://hyperspace.xyz/"
 # Link to github
 github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["hyperspacexyz"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["TH7Gs8naRH"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

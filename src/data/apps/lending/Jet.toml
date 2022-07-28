@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "jetprotocol"
+# Formatted application name to present in app
+label = "Jet Protocol"
+# Array of categories, max of 3
+categories = ["lending"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Jet Protocol is a decentralized and permissionless borrowing and lending protocol built on top of the Solana blockchain."
+# Long description used in app details
+long = "Jet Protocol is a decentralized and permissionless borrowing and lending protocol built on top of the Solana blockchain."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwij5x37870eysxayy8m1sh%3Ftype%3DLOGO&w=3840&q=75"
+# URL to app home page
+website = "https://www.jetprotocol.io/"
+# URL to app
+application = "https://app.jetprotocol.io/"
+# Link to github
+github = "https://github.com/jet-lab/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["https://twitter.com/jetprotocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["https://discord.gg/RW2hsqwfej"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/jetprotocol"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

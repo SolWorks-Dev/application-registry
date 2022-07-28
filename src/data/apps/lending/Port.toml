@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "portfinance"
+# Formatted application name to present in app
+label = "Port Finance"
+# Array of categories, max of 3
+categories = ["lending"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Port Finance is a lending protocol that aims to provide an entire suite of fixed income products including variable rate lending, fixed rate lending and interest rate swaps."
+# Long description used in app details
+long = "Port Finance is a lending protocol that aims to provide an entire suite of fixed income products including variable rate lending, fixed rate lending and interest rate swaps."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://pbs.twimg.com/profile_images/1476971812860825601/ghy7S01U_400x400.jpg"
+# URL to app home page
+website = "https://port.finance/"
+# URL to app
+application = "https://mainnet.port.finance/"
+# Link to github
+github = "https://github.com/port-finance/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["port_finance"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["nAMXAYhTb2"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/port-finance"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["port_finance"]

@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "cardinal"
+# Formatted application name to present in app
+label = "Cardinal"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Cardinal is a Solana Protocol that enables the conditional ownership of NFTs. We're powering the future of NFT utility through rentals, subscriptions, staking, tickets and more."
+# Long description used in app details
+long = "Cardinal is a Solana Protocol that enables the conditional ownership of NFTs. We're powering the future of NFT utility through rentals, subscriptions, staking, tickets and more."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2F561546307-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTPcG1cozZ2dbrzrzC9jN%252Ficon%252F90M751L00uwMQkyYGk1K%252Fcardinal-icon-dark3.png%3Falt%3Dmedia%26token%3D82be6a5b-97af-481f-abb8-5d8411b9b951"
+# URL to app home page
+website = "https://www.cardinal.so/"
+# URL to app
+application = "https://www.cardinal.so/"
+# Link to github
+github = "https://github.com/cardinal-labs"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["cardinal_labs"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["7NuTbsvvUh"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "magiceden"
+# Formatted application name to present in app
+label = "Magic Eden"
+# Array of categories, max of 3
+categories = ["marketplace"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Magic Eden is your destination for discovery, expression, and ownership across digital cultures."
+# Long description used in app details
+long = "Magic Eden is a community-centric company. We work hard to be responsive, close to the ground, and in service to the best interests of our collections. To prove our commitment to the community, we airdropped Magic Ticket, our own collection, to over 30,000 users. Holding a Magic Ticket gives holders access to our discord-based DAO, MagicDAO, where we deliver interconnectivity via social programs and rewards to the community."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://pbs.twimg.com/profile_images/1543045383349207040/pqpslxx8_400x400.jpg"
+# URL to app home page
+website = "https://magiceden.io/"
+# URL to app
+application = "https://magiceden.io/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["MagicEden"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["magiceden"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://contenthub.magiceden.io/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

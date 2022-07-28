@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "switchboard"
+# Formatted application name to present in app
+label = "Switchboard"
+# Array of categories, max of 3
+categories = ["oracle"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Switchboard is a community-driven, decentralized oracle network built on Solana that allows anyone to publish on-chain data for smart contract developers to reliably build upon."
+# Long description used in app details
+long = "Switchboard is a generalized, community-curated oracle network designed to incentivize bringing the long tail of data on-chain. Harnessing the wisdom of crowds, Switchboard appeals to a market of curators incentivized to organize unique off-chain data sources and publishers raring to decentralize quantitative data feeds."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://avatars.githubusercontent.com/u/83592906?s=200&v=4"
+# URL to app home page
+website = "https://switchboard.xyz/"
+# URL to app
+application = "https://switchboard.xyz/explorer"
+# Link to github
+github = "https://github.com/switchboard-xyz"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["switchboardxyz"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["switchboardxyz"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://switchboardxyz.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["switchboardxyz"]

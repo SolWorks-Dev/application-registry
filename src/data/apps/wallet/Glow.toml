@@ -1,60 +1,46 @@
 [app]
 # Lower cased application name
-value = ""
+value = "glow"
 # Formatted application name to present in app
-label = ""
+label = "Glow"
 # Array of categories, max of 3
-categories = [""]
+categories = ["wallet"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Glow is a fast, easy-to-use wallet for Solana. Glow is available to download on iOS, Chrome, Brave, Edge, and Firefox."
 # Long description used in app details
-long = ""
+long = "Glow is a fast, easy-to-use wallet for Solana. Glow is available to download on iOS, Chrome, Brave, Edge, and Firefox."
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://glow.app/landing/app-icons/yellow.png"
 # URL to app home page
-website = ""
+website = "https://glow.app/"
 # URL to app
-application = ""
+application = "https://glow.app/"
 # Link to github
 github = ""
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["glowwallet"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = []
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

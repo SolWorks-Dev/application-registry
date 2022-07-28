@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "degenerateapeacademy"
+# Formatted application name to present in app
+label = "Degenerate Ape Academy"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Our mission here at the academy is simple: Take 10,000 of the smoothest brained apes, put them all in one location and let the mayhem ensue."
+# Long description used in app details
+long = """Our mission here at the academy is simple: Take 10,000 of the smoothest brained apes, put them all in one location and let the mayhem ensue. The academy was founded on the principles of friendship making, crayon eating and absolute, unregulated, deplorable, degenerate behaviour. Welcome fellow apes, to the Degenerate Ape Academy."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreie44hlb5xve225n6p2siebaevxiwha37aefyvs2ul2kx2akalnree.ipfs.dweb.link/"
+# URL to app home page
+website = "https://www.degenape.academy/"
+# URL to app
+application = "https://www.degenape.academy/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["DegenApeAcademy"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["degenapeacademy"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "sollet"
+# Formatted application name to present in app
+label = "Sollet"
+# Array of categories, max of 3
+categories = ["wallet"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Sollet.io is a non-custodial web wallet created by the Project Serum team. Sollet.io can be used to send and receive SOL and any SPL Token."
+# Long description used in app details
+long = "Sollet.io is a non-custodial web wallet created by the Project Serum team. Sollet.io can be used to send and receive SOL and any SPL Token."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckzq10mln148509jlcs8wghna%3Ftype%3DLOGO&w=3840&q=75"
+# URL to app home page
+website = "https://www.sollet.io/"
+# URL to app
+application = "https://www.sollet.io/"
+# Link to github
+github = "https://github.com/project-serum/spl-token-wallet"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["solletio"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = []
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

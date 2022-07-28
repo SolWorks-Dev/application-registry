@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "genesysgo"
+# Formatted application name to present in app
+label = "GenesysGo"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "GenesysGo is a Blockchain Service Provider providing robust and secure infrastructure to give blockchain developers and operators the performance they need."
+# Long description used in app details
+long = "GenesysGo is a Blockchain Service Provider providing robust and secure infrastructure to give blockchain developers and operators the performance they need."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwihsc37192eysxces14tuu%3Ftype%3DLOGO&w=3840&q=75"
+# URL to app home page
+website = "https://genesysgo.com/"
+# URL to app
+application = "https://genesysgo.com/"
+# Link to github
+github = "https://github.com/GenesysGo"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["genesysgo"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["genesysgo"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://genesysgo.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
