@@ -14,7 +14,7 @@
     "clean": "rm -rf ./build",
     "nobuild": "ts-node src/build.ts",
     "nobuild::clean": "npm run clean && npm run nobuild",
-    "build": "npm run clean && npx tsc",
+    "build": "npm run clean && ts-node src/build.ts && npx tsc",
     "build::publish::patch": "npm run build && npm version patch && npm publish --access=public"
   },
   "keywords": [],

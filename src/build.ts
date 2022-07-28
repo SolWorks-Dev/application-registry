@@ -69,7 +69,7 @@ class DataBuilder {
             }
 
             if (app.socials.twitter) {
-                if (app.socials.twitter.includes('twitter')) {
+                if (app.socials.twitter.includes('twitter' || app.socials.twitter.includes('@'))) {
                     throw new Error(`App ${app.app.value} has an invalid twitter handle`);
                 }
             }
