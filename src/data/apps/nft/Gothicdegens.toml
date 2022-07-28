@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "gothicdegens"
 # Formatted application name to present in app
-label = ""
+label = "Gothic Degens"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Gothic Degens bringing new meta to the SOL ecosystem."
 # Long description used in app details
-long = """"""
+long = """Gothic Degens bringing new meta to the SOL ecosystem."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://openseauserdata.com/files/f5be8a429326c78620f81ea18aa3d392.png"
 # URL to app home page
-website = ""
+website = "https://www.magiceden.io/marketplace/gothic_degens"
 # URL to app
-application = ""
+application = "https://www.magiceden.io/marketplace/gothic_degens"
 # Link to github
 github = ""
 
@@ -31,11 +31,11 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["GothicDegens"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["5PyJ9se27w"]
 
 # array of medium accounts
 # username or link only

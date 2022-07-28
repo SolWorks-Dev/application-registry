@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "okaybears"
 # Formatted application name to present in app
-label = ""
+label = "Okay Bears"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "A clean collection of 10,000 diverse bears building a virtuous community that will transcend the internet into the real world."
 # Long description used in app details
-long = """"""
+long = """Okay Bears is a culture shift. A clean collection of 10,000 diverse bears building a virtuous community that will transcend the internet into the real world."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/"
 # URL to app home page
-website = ""
+website = "https://www.okaybears.com/"
 # URL to app
-application = ""
+application = "https://www.okaybears.com/"
 # Link to github
 github = ""
 
@@ -31,11 +31,11 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["okaybears"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["bearwithus"]
 
 # array of medium accounts
 # username or link only

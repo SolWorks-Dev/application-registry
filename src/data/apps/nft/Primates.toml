@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "primates"
 # Formatted application name to present in app
-label = ""
+label = "Primates"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Primates is a project built for the community, by the community."
 # Long description used in app details
-long = """"""
+long = """Primates is a project built for the community, by the community. The goal of Primates is to create a brand that facilitates a seamless adoption of the web3 space through our community fueled ventures and collaborations."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeifnx4apyushfc3i2tg5wx2xgudcfxgisd2sven2mhxixpghuo2jeu.ipfs.dweb.link/"
 # URL to app home page
-website = ""
+website = "https://magiceden.io/marketplace/primates"
 # URL to app
-application = ""
+application = "https://magiceden.io/marketplace/primates"
 # Link to github
 github = ""
 
@@ -31,11 +31,11 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["Primatesnft"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["theprimates"]
 
 # array of medium accounts
 # username or link only

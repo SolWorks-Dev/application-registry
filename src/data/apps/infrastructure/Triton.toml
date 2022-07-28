@@ -19,7 +19,7 @@ long = "Triton provides RPC Pool and Guardian infrastructure services for Solana
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://avatars.githubusercontent.com/u/82511886?s=200&v=4"
 # URL to app home page
 website = "https://rpcpool.com/"
 # URL to app

@@ -29,7 +29,67 @@ class DataBuilder {
         // Load categories
         const categories = await this.loadAllCategories();
 
-        // TODO: validate app data
+        // validate app data
+        for (const app of apps) {
+            const category = categories.find((category: Category) => category.value === app.app.categories[0]);
+            if (!category) {
+                throw new Error(`Category ${app.app.categories[0]} is not a valid category`);
+            }
+
+            if (!app.app.value || !app.app.value.trim()) {
+                throw new Error(`App value ${app.app.label} has no value`);
+            }
+
+            if (!app.app.label || !app.app.label.trim()) {
+                throw new Error(`App ${app.app.value} has no label`);
+            }
+
+            if (app.app.categories.length === 0) {
+                throw new Error(`App ${app.app.label} has no categories`);
+            }
+
+            if (!app.description.short || !app.description.short.trim()) {
+                throw new Error(`App ${app.app.value} has no short description`);
+            }
+
+            if (!app.description.long || !app.description.long.trim()) {
+                throw new Error(`App ${app.app.value} has no long description`);
+            }
+
+            if (!app.urls.logo || !app.urls.logo.trim()) {
+                throw new Error(`App ${app.app.value} has no logo url`);
+            }
+
+            if (!app.urls.website || !app.urls.website.trim()) {
+                throw new Error(`App ${app.app.value} has no website url`);
+            }
+
+            if (!app.urls.application || !app.urls.application.trim()) {
+                throw new Error(`App ${app.app.value} has no application url`);
+            }
+
+            if (app.socials.twitter) {
+                if (app.socials.twitter.includes('twitter')) {
+                    throw new Error(`App ${app.app.value} has an invalid twitter handle`);
+                }
+            }
+
+            if (app.socials.discord) {
+                if (app.socials.discord.includes('discord.gg')) {
+                    throw new Error(`App ${app.app.value} has an invalid discord invite`);
+                }
+            }
+
+            if (app.socials.telegram) {
+                if (app.socials.telegram.includes('t.me')) {
+                    throw new Error(`App ${app.app.value} has an invalid telegram invite`);
+                }
+            }
+
+            if (app.urls.github !== "" && !app.urls.github.includes('github')) {
+                throw new Error(`App ${app.app.value} has an invalid github link`);
+            }
+        }
 
         // Validate category data
         for (const category of categories) {

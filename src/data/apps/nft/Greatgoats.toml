@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "greatgoats"
 # Formatted application name to present in app
-label = ""
+label = "Great Goats"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Great Goats is an exclusive collection of 11,111 goats roaming across the chain. Be a Goat."
 # Long description used in app details
-long = """"""
+long = """Great Goats is an exclusive collection of 11,111 goats roaming across the chain. Be a Goat. Where your identity matters. A label for the ecosystem. Followed by the community. 🤘"""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/b3bc1733c8b49865d70b79160acef873/86af3e32"
 # URL to app home page
-website = ""
+website = "https://greatgoats.io/"
 # URL to app
-application = ""
+application = "https://greatgoats.io/"
 # Link to github
 github = ""
 
@@ -31,11 +31,11 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["greatgoatsnft"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["greatgoats"]
 
 # array of medium accounts
 # username or link only

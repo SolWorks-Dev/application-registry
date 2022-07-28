@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "degods"
 # Formatted application name to present in app
-label = ""
+label = "DeGods"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "A collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe. DeGods can be converted to DeadGods with DUST."
 # Long description used in app details
-long = """"""
+long = """A deflationary collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe. Powered by the Solana Blockchain. Your DeGod gives you the ability to mine DUST, access to our NFT tracking mobile app DYOR, membership into our community, and tons of other cool sh*t. DeGods can be converted to DeadGods with DUST."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://www.degods.com/images/degods_bitmap.svg"
 # URL to app home page
-website = ""
+website = "https://www.degods.com/"
 # URL to app
-application = ""
+application = "https://www.degods.com/"
 # Link to github
 github = ""
 
@@ -31,16 +31,16 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["DeGodsNFT"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["dedao"]
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = [""]
+telegram = []

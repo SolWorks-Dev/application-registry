@@ -1,8 +1,8 @@
 [app]
 # Lower cased application name
-value = ""
+value = "taiyorobotics"
 # Formatted application name to present in app
-label = ""
+label = "Taiyo Robotics"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
@@ -11,19 +11,19 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = ""
+short = "Taiyo Robotics are 2,121 Robots that have been manufactured on the Solana blockchain. They have been created to protect the world against giant monsters that have plagued earth."
 # Long description used in app details
-long = """"""
+long = """Taiyo Robotics are 2,121 Robots that have been manufactured on the Solana blockchain. They have been created to protect the world against giant monsters that have plagued earth."""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = ""
+logo = "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/72a25e9d4d6f89582ebddb4e17aad0e6/bd10fa1b"
 # URL to app home page
-website = ""
+website = "https://taiyorobotics.com/"
 # URL to app
-application = ""
+application = "https://taiyorobotics.com/"
 # Link to github
 github = ""
 
@@ -31,11 +31,11 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = [""]
+twitter = ["TaiyoRobotics"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = ["66MQBHMn4n"]
 
 # array of medium accounts
 # username or link only
