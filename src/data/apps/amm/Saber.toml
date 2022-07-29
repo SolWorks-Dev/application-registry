@@ -19,7 +19,7 @@ long = "Saber is an automated market maker and liquidity pool on Solana designed
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://github.com/saber-hq/brand/blob/master/assets/icon-purple.svg"
+logo = "https://raw.githubusercontent.com/saber-hq/brand/master/assets/icon-purple.svg"
 # URL to app home page
 website = "https://saber.so"
 # URL to app
