@@ -11,9 +11,9 @@ is_curated = false
 
 [description]
 # Short description used in search bars, mini app cards
-short = "QuickNode makes it simple to power your blockchain applications and scale up as you grow. Infra and tools to build + scale your Web3 app."
+short = "QuickNode makes it simple to power your blockchain applications. Access tools, infra, and advanced APIs to build & scale your Web3 app in minutes."
 # Long description used in app details
-long = "QuickNode makes it simple to power your blockchain applications and scale up as you grow. Infra and tools to build + scale your Web3 app. Access Solana data (latest + archive/historical) on MainNet, TestNet, DevNet, and 11 other chains via API (via https & wss) -- on a global, low-latency, auto-scaling node network."
+long = "QuickNode makes it simple to power your blockchain applications. Access tools, infra, and advanced APIs to build & scale your Web3 app in minutes. Solana data (latest + archive/historical) on MainNet, TestNet, DevNet, and 14 other chains via API (via https & wss) -- on a global, low-latency, auto-scaling node network. Get started for free today!"
 
 
 [urls]
