@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "helius"
+# Formatted application name to present in app
+label = "Helius"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Abstracting on-chain data to be human-readable for developers, analysts, and investors."
+# Long description used in app details
+long = "Helius reverse-engineers on-chain data and makes it available via world-class data pipelines and blazing-fast indexing infrastructure for developers, analysts, and investors to make sense of."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/helius.png"
+# URL to app home page
+website = "helius.xyz"
+# URL to app
+application = "https://docs.helius.xyz/introduction/why-helius-api"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["heliuslabs"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["6GXdee3gBj"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
