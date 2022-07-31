@@ -21,9 +21,9 @@ long = "Helius reverse-engineers on-chain data and makes it available via world-
 # webp3 format with size < 512x512px
 logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/helius.png"
 # URL to app home page
-website = "helius.xyz"
+website = "https://helius.xyz"
 # URL to app
-application = "https://docs.helius.xyz/introduction/why-helius-api"
+application = "https://docs.helius.xyz"
 # Link to github
 github = ""
 
