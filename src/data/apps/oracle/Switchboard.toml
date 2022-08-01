@@ -11,9 +11,9 @@ is_curated = true
 
 [description]
 # Short description used in search bars, mini app cards
-short = "Switchboard is a community-driven, decentralized oracle network built on Solana that allows anyone to publish on-chain data for smart contract developers to reliably build upon."
+short = "Switchboard is a customizable oracle protocol for generalized, community-curated data feeds and verifiable random function (VRF). Our developer-first tool, Publisher incentivizes bringing long tail data on-chain."
 # Long description used in app details
-long = "Switchboard is a generalized, community-curated oracle network designed to incentivize bringing the long tail of data on-chain. Harnessing the wisdom of crowds, Switchboard appeals to a market of curators incentivized to organize unique off-chain data sources and publishers raring to decentralize quantitative data feeds."
+long = "Switchboard is a customizable oracle protocol for generalized, community-curated data feeds and verifiable random function (VRF). Our developer-first tool, Publisher incentivizes bringing long tail data on-chain."
 
 
 [urls]
@@ -26,6 +26,13 @@ website = "https://switchboard.xyz/"
 application = "https://switchboard.xyz/explorer"
 # Link to github
 github = "https://github.com/switchboard-xyz"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Application"
+# App link URL
+url = "https://app.switchboard.xyz"
 
 
 [socials]
