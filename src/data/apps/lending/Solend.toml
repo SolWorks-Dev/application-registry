@@ -35,7 +35,7 @@ twitter = ["solendprotocol"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = ["aGXvPNGXDT"]
+discord = ["solend"]
 
 # array of medium accounts
 # username or link only
