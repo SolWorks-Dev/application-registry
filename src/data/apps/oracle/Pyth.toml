@@ -27,6 +27,31 @@ application = "https://pyth.network/"
 # Link to github
 github = "https://github.com/pyth-network"
 
+# Additional app link
+[[urls.other]]
+# App link name
+name = "DefiLlama"
+# App link URL
+url = "https://wiki.defillama.com/wiki/Pyth_Network"
+
+[[urls.other]]
+# App link name
+name = "Whitepaper"
+# App link URL
+url = "https://pyth.network/whitepaper.pdf"
+
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.pyth.network"
+
+[[urls.other]]
+# App link name
+name = "Metrics"
+# App link URL
+url = "https://docs.pyth.network/metrics"
+
 
 [socials]
 # array of associated twitter accounts, max 5 
