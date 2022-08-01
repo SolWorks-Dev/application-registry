@@ -13,9 +13,7 @@ is_curated = false
 # Short description used in search bars, mini app cards
 short = "Bridging the gaps of data accessibility via an indexer, APIs and explorer tools on Solana."
 # Long description used in app details
-long = """Explore the entire Solana blockchain with GraphQL, all in one place.
-
-SolanaFM's infrastructure enables you to query data beyond the limits of traditional approaches, easily supporting queries that span across the history of Solana. We provide Solana's historical data through an efficient and dynamic GraphQL API, powering Solana ecosystem projects, showcasing on-chain data & analysis."""
+long = """SolanaFM is a blockchain explorer that provides many services beyond the typical explorer. The company works closely with protocols within the Solana ecosystem to index their data, and supports businesses outside the ecosystem such as banks and compliance companies to provide them with fast, equitable data."""
 
 
 [urls]
@@ -23,11 +21,19 @@ SolanaFM's infrastructure enables you to query data beyond the limits of traditi
 # webp3 format with size < 512x512px
 logo = "https://solana.com/_next/image?url=%2Fapi%2Fprojectimg%2Fckwgwh8ef30394eysxh00ilb0m%3Ftype%3DLOGO&w=2048&q=75"
 # URL to app home page
-website = "https://solana.fm/"
+website = "https://solana.fm"
 # URL to app
-application = "https://solana.fm/"
+application = "https://solana.fm"
 # Link to github
 github = ""
+
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link url
+url = "https://docs.solana.fm"
 
 
 [socials]
