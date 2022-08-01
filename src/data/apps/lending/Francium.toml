@@ -21,11 +21,25 @@ long = "Francium is a Decentralized yield strategy aggregator built on Solana."
 # webp3 format with size < 512x512px
 logo = "https://github.com/Francium-DeFi/materials/blob/main/francium_logo_black_background_with_ring.png.png?raw=true"
 # URL to app home page
-website = "https://francium.io/"
+website = "https://francium.io"
 # URL to app
 application = "https://francium.io/app"
 # Link to github
 github = "https://github.com/Francium-DeFi"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link url
+url = "https://docs.francium.io"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "YouTube"
+# app link url
+url = "https://youtube.com/channel/UCRHiajmfMkCid7quA8QW6LA"
 
 
 [socials]
