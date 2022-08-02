@@ -35,6 +35,12 @@ name = "Documentation"
 # App link url
 url = "https://docs.solana.fm"
 
+[[urls.other]]
+# App link name
+name = "Substack"
+# App link url
+url = "https://solanafm.substack.com"
+
 
 [socials]
 # array of associated twitter accounts, max 5 

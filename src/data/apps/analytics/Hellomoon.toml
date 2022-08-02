@@ -13,7 +13,7 @@ is_curated = true
 # Short description used in search bars, mini app cards
 short = "Hello Moon is a human readable index of Solana that provides visibility into all NFT collections, DeFi tokens, and protocols on the Solana blockchain."
 # Long description used in app details
-long = "Hello Moon is a human readable index of Solana that translates complex on-chain data into simple dashboards for your favorite NFTs, DeFi tokens and protocols. HelloMoon.io categorizes projects by suspected wash trading activity, ownership overlap across collections, average USDC value in holders' wallets, floor prices, volume, etc. -- and also labels the wallets that are engaging in each ecosystem"
+long = """Hello Moon is a human readable index of Solana that translates complex on-chain data into simple dashboards for exploring top NFT projects, DeFi tokens and protocols. Track top users (including influencers and whales) by their Twitter handles across both NFTs and DeFi as they buy, sell, list and de-list on HelloMoon. The tool also categorizes projects by floor prices, volume, suspected wash trading activity, ownership overlap across collections, average USDC value in holders' wallets, etc. -- and also labels the wallets that are engaging in each ecosystem. The platform also supports DeFi tracking and token trading functions without additional fees."""
 
 
 [urls]
