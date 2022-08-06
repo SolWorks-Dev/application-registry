@@ -1,0 +1,51 @@
+[app]
+# Lower cased application name
+value = "zeta"
+# Formatted application name to present in app
+label = "Zeta"
+# Array of categories, max of 3
+categories = ["derivatives"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Zeta (ζ) is the premier under-collateralized DeFi derivatives platform, providing liquid derivatives trading to individuals and institutions alike."
+# Long description used in app details
+long = """Zeta’s mission is to democratise derivatives, allowing anyone and everyone to put their hard-earned money to work:
+
+- Provide the ecosystem with a bulletproof derivatives platform.
+- Create user experiences and products which simplify the derivatives trading experience.
+
+Ultimately enabling anyone to hedge, speculate, and take opinions on a limitless variety of market movements."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/zeta.jpg"
+# URL to app home page
+website = "https://zeta.markets"
+# URL to app
+application = "https://mainnet.zeta.markets"
+# Link to github
+github = "https://github.com/zetamarkets"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["ZetaMarkets"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["SacGBFKNzQ"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://zetamarkets.substack.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
