@@ -1,0 +1,56 @@
+[app]
+# Lower cased application name
+value = "stepfinance"
+# Formatted application name to present in app
+label = "Step Finance"
+# Array of categories, max of 3
+categories = ["analytics"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Step.finance is the front page of Solana. Step is the largest portfolio dashboard on Solana and provides data insights about your wallet in addition to the rest of the ecosystem."
+# Long description used in app details
+long = """Step Finance is the front page of Solana. Visualise, Analyse, Execute and Aggregate transactions across all Solana contracts in one place. Step is a portfolio management dashboard and transaction aggregator where users can monitor their tokens associated with their wallets, LP positions, Staked Yield farms, Margin positions and more.
+
+Users of Step Finance can also execute Swaps and enter various yield farms and automated vaults from within Step with any fees on such value accrual services going back to STEP stakers."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/step.png"
+# URL to app home page
+website = "https://www.step.finance/"
+# URL to app
+application = "https://app.step.finance/"
+# Link to github
+github = "https://github.com/step-finance"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link url
+url = "https://docs.step.finance/"
+
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["StepFinance_"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["ZWRd2ZxrdR"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://stepfinance.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

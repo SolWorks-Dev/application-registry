@@ -1,0 +1,55 @@
+[app]
+# Lower cased application name
+value = "vandalcity"
+# Formatted application name to present in app
+label = "Vandal City"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "A collection of 10,000 Bandits, Outcasts, & Misfits of the Metaverse. Vandal City is the epicenter of Web3 innovation, fostering top tier utilities and art."
+# Long description used in app details
+long = """
+**HOME**
+Vandal City, the home of multi-millionaires hiding away in their skyscraper homes and private estates, is being taken over by a band of bandits & bank robbers.
+
+**BACKGROUND**
+Vandals have entered Vandal City with a particular set of skills that they're ready to put to the test. They use $VAULT token to crack the codes of the multi-millionaires bank vaults and take what they deserve. They have been preparing for this moment in the shadows for years, and now they're ready to unlock the $VAULT.
+
+**Mission**
+Vandal City is a lifestyle and your $VAULT is yours. We believe that the blockchain and NFT community is place for collaborative games, where alone the job can be hard but with some help anything is possible. Crew up, find the code, share the rewards.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/vandalcity.jpg"
+# URL to app home page
+website = "https://www.vandalcity.io/"
+# URL to app
+application = "https://www.magiceden.io/marketplace/vandal_city"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["VandalCityCorp"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["vandalcitycorp"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

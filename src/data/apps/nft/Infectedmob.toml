@@ -1,0 +1,56 @@
+[app]
+# Lower cased application name
+value = "infectedmob"
+# Formatted application name to present in app
+label = "Infected Mob"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "A science experiment gone completely wrong. 7777 deranged and savage mobsters wreaking havoc in the streets of Solana."
+# Long description used in app details
+long = """In the beginning of the 23rd Century, 95% of Earth’s human population was wiped out by unrelenting showers of acidic rain pouring for years on end. Having predicted the Flooding, a group of scientists had created a collection of robots to immortalize the legacy of man. 
+
+After over a hundred years of cryogenic slumber, the scientists wake up to a society rebuilt by the combined efforts of man and machine. But then, along the way, something went terribly wrong… Welcome to Solana, a dystopian society ravaged by mafia and infectious mutations, where dog eats dog and climbing the social ladder requires the unimaginable."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/infectedmob.gif"
+# URL to app home page
+website = "https://www.mobstudios.io/"
+# URL to app
+application = "https://magiceden.io/creators/mob_studios"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Staking"
+# App link url
+url = "https://stake.mobstudios.io/"
+
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["InfectedMob"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["nfctdmob"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
