@@ -6,7 +6,7 @@ label = "Mango Markets"
 # Array of categories, max of 3
 categories = ["derivatives"]
 # Curation category flag
-is_curated = false
+is_curated = true
 
 
 [description]
