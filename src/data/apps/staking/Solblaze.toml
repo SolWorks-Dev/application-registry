@@ -31,6 +31,12 @@ application = "https://stake.solblaze.org/app/"
 # Link to github
 github = "https://github.com/SolBlazeOrg"
 
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://stake-docs.solblaze.org/"
 
 [socials]
 # array of associated twitter accounts, max 5 
