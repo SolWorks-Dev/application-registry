@@ -1,0 +1,67 @@
+[app]
+# Lower cased application name
+value = "famousfoxfederation"
+# Formatted application name to present in app
+label = "Famous Fox Federation"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain."
+# Long description used in app details
+long = """
+The Famous Fox Federation is a collection of 7,777 (from over a million combinations) randomly generated and stylistically generated NFTs that exist on the Solana Blockchain.
+
+The FFF also recognizes all of those less fortunate in the world and as part of our mission we have **donated over 800 SOL** from our proceeds towards causes that the community suggested and voted on.
+Federation members can participate in exclusive events that will be hosted such as exclusive NFT mints, raffles, community giveaways, and more.
+
+## NFT Collections
+
+Within the Famous Fox Federation, there are currently 4 different NFT collections that make up the 'Foxosphere' ecosystem.
+
+- [Famous Foxes](https://famous-fox-federation.gitbook.io/famous-fox-federation/famous-foxes-fff)
+- [Transdimensional Famous Foxes](https://famous-fox-federation.gitbook.io/famous-fox-federation/transdimensional-famous-foxes-tff)
+- [Famous Fox Dens](https://famous-fox-federation.gitbook.io/famous-fox-federation/famous-fox-dens)
+- [Famous Fox Friends & Foes](https://famous-fox-federation.gitbook.io/famous-fox-federation/famous-fox-friends-and-foes)
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/famousfoxes.svg"
+# URL to app home page
+website = "https://famousfoxes.com/"
+# URL to app
+application = "https://magiceden.io/marketplace/famous_fox_federation"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://famous-fox-federation.gitbook.io/famous-fox-federation/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["famousfoxfed"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["famousfoxes"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/@famousfoxfederation"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

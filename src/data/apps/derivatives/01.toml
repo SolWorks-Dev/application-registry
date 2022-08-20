@@ -1,0 +1,100 @@
+[app]
+# Lower cased application name
+value = "01"
+# Formatted application name to present in app
+label = "01"
+# Array of categories, max of 3
+categories = ["derivatives"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Trade on exceptional liquidity, powered by next-generation decentralized blockchain infrastructure—built by traders, for traders."
+# Long description used in app details
+long = """
+## What is 01?
+
+01 is a fully decentralized derivatives exchange. 01 runs on smart contracts built on the [Solana](https://solana.com/) blockchain, the most performant, fast, and low cost blockchain.
+
+## Why 01?
+
+### 🔮 Perpetual Futures
+
+01 offers powerful deep liquidity [perpetual futures](https://help.01.xyz/en/articles/6358964-what-are-perpetuals) markets, empowering traders with up to 20x their buying power.
+
+### ☄️ Power Perpetuals
+
+01 is the first protocol to introduce orderbook based [power perpetuals](https://help.01.xyz/en/articles/6362843-what-are-powers), a novel asset type providing global option-like exposure.
+
+### 💎 Yield-bearing Deposits 
+
+All deposits on 01 accrue passive APY through algorithmic borrow lending markets.
+
+### 📈 Decentralized Orderbook
+
+01 is built with [Serum](https://www.projectserum.com/)'s fully decentralized on-chain limit orderbook, providing traders with the ultimate trading experience, without sacrificing decentralization.
+
+### 💷 Cross-Collateral 
+
+Traders can deposit a variety of supported tokens as collateral for their positions, saving on swap fees.
+
+### 🏛 Cross-Margin 
+
+Leverage is shared across all positions under a single account, allowing for unparalleled capital efficiency.
+
+## Built on Solana
+
+### ⬇️ Low fees
+
+Operations over the Solana network average $0.00025, and the decentralized nature of 01 cuts out the very costly centralized broker middlemen, making every trade more profitable.
+
+### ⚡️ Instant transactions 
+
+Solana enables over 50,000 transactions per second, compared to Ethereum's current 17 transactions per second on layer 1, enabling lightning quick trades and settlements.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/01.jpg"
+# URL to app home page
+website = "https://01.xyz/"
+# URL to app
+application = "https://01.xyz/dashboard/"
+# Link to github
+github = "https://github.com/01protocol"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.01.xyz/"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Grants"
+# app link URL
+url = "https://www.notion.so/01exchange/01-Exchange-Grants-Program-ecbab6fde93843caa6924fb5cda3b79e"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["01_exchange"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["XwDDn3s5zs"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://01exchange.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["onboard01"]

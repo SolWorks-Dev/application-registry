@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "staratlas"
+# Formatted application name to present in app
+label = "Star Atlas"
+# Array of categories, max of 3
+categories = ["gaming"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "A grand strategy game of space exploration, territorial conquest, political domination, and more."
+# Long description used in app details
+long = "Star Atlas is developing a unique gaming experience by combining blockchain mechanics with traditional game mechanics and is proud to announce that it has selected Solana as the protocol to build out its metaverse."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/staratlas.png"
+# URL to app home page
+website = "https://staratlas.com/"
+# URL to app
+application = "https://play.staratlas.com/"
+# Link to github
+github = "https://github.com/staratlasmeta"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["StarAtlas"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["staratlas"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/star-atlas"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

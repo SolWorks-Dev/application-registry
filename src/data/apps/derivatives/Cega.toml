@@ -1,0 +1,77 @@
+[app]
+# Lower cased application name
+value = "cega"
+# Formatted application name to present in app
+label = "Cega"
+# Array of categories, max of 3
+categories = ["derivatives"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Cega offers safer and transparent yield strategies as defi's first exotic options protocol."
+# Long description used in app details
+long = """
+## What is Cega?
+
+Cega is a decentralized exotic derivatives protocol. We build exotic options structured products for retail investors that generate superior yield and offer built-in protection against market downturns. Cega is developing new capabilities in tech, token contracts, and data modeling that will enable the next evolution of defi derivatives.
+
+## What is our mission?
+
+To create superior, flexible, and diversified investment opportunities for every Web3 investor.
+
+## What are our values?
+
+Cega is a value-driven protocol and we strongly believe in living/executing the following values every day:
+1. Be a good person 
+    - We are a team of good, thoughtful people. Don’t be evil 
+2. Move fast, get things done 
+    - Few decisions have irreversible consequences so bias towards action 
+3. Have an ownership mentality
+    - Take pride in your work and be responsible for your output. Be active in driving projects forward 
+4. No question is a bad question 
+    - If you don't fully understand, don't say you do and ask questions to clarify
+5. Embrace different 
+    - We welcome different perspectives to achieve the best creative solutions together 
+6. Have fun together 
+    - We want everyone to enjoy the adventure we are on together!
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/cega.jpg"
+# URL to app home page
+website = "https://cega.fi/"
+# URL to app
+application = "https://app.cega.fi/"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://cega.gitbook.io/cega/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["cega_fi"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["cega"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://cegafi.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
