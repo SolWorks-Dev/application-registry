@@ -2,36 +2,48 @@
 # Lower cased application name
 value = "sonarwatch"
 # Formatted application name to present in app
-label = "Sonar Watch"
+label = "SonarWatch"
 # Array of categories, max of 3
 categories = ["analytics"]
 # Curation category flag
-is_curated = false
+is_curated = true
 
 
 [description]
 # Short description used in search bars, mini app cards
-short = "SonarWatch scans the Solana blockchain and displays portfolio statistics from all major protocols of the DeFi ecosystem."
+short = "Track everything on Solana."
 # Long description used in app details
-long = "SonarWatch scans the Solana blockchain and displays portfolio statistics from all major protocols of the DeFi ecosystem. You can also track your NFT portfolio value, your Serum open orders and unsettled balances."
+long = """
+SonarWatch is here to empower user journey on Solana by showing you every single asset you own from DeFi to NFTs across every addresses you have but also by providing the necessary tools on Solana.
+
+Explore the ecosystem and discover new opportunities, learn about each protocol, discover insights from any wallet and more on SonarWatch and enjoy a mobile friendly experience!
+"""
 
 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://pbs.twimg.com/profile_images/1526219106726424576/pRU4FJ_N_400x400.png"
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/sonar.svg"
 # URL to app home page
 website = "https://sonar.watch/"
 # URL to app
 application = "https://sonar.watch/"
 # Link to github
-github = ""
+github = "https://github.com/sonarwatch"
+
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link url
+url = "https://docs.sonar.watch"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["Sonarwatch"]
+twitter = ["sonarwatch"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
@@ -43,4 +55,4 @@ medium = ["https://sonarwatch.medium.com/"]
 
 # array of telegram groups
 # only include the text after `t.me/`
-telegram = []
+telegram = ["Sonar_Watch_Announcements_TG"]
