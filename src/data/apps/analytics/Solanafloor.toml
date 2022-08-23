@@ -13,7 +13,13 @@ is_curated = false
 # Short description used in search bars, mini app cards
 short = "The home of Solana NFTs. Find the top and most popular NFT collections and analyze the current state and growth over time."
 # Long description used in app details
-long = "The home of Solana NFTs. Find the top and most popular NFT collections and analyze the current state and growth over time."
+long = """
+The home of Solana NFTs. Find the top and most popular NFT collections and analyze the current state and growth over time. SolanaFloor provides comprehensive data on over 250 collections with new additions regularly. 
+
+Free users get access to several historical data sets and tools, including floor price charts, wallet analysis and the SolanaFloor NFT Index, an indicator consisting of a selected basket of Blue Chip collections based on multiple weighted criteria. Shi Guardian NFT holders gain access to the additional SF Pro features like real-time data, alerts and exportable CSV data. 
+
+SolanaFloor is part of the [Step Finance](https://solapps.dev/apps/step_finance) ecosystem.
+"""
 
 
 [urls]
@@ -26,6 +32,13 @@ website = "https://solanafloor.com/"
 application = "https://solanafloor.com/"
 # Link to github
 github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Shi Guardians"
+# App link url
+url = "https://magiceden.io/marketplace/shi_guardians_by_solanafloor"
 
 
 [socials]
