@@ -13,9 +13,17 @@ is_curated = true
 # Short description used in search bars, mini app cards
 short = "Step.finance is the front page of Solana. Step is the largest portfolio dashboard on Solana and provides data insights about your wallet in addition to the rest of the ecosystem."
 # Long description used in app details
-long = """Step Finance is the front page of Solana. Visualise, Analyse, Execute and Aggregate transactions across all Solana contracts in one place. Step is a portfolio management dashboard and transaction aggregator where users can monitor their tokens associated with their wallets, LP positions, Staked Yield farms, Margin positions and more.
+long = """
+Step Finance is the front page of Solana. Visualise, Analyse, Execute and Aggregate transactions across all Solana contracts in one place. Step is a portfolio management dashboard and transaction aggregator where users can monitor their tokens associated with their wallets, LP positions, Staked Yield farms, Margin positions and more.
 
-Users of Step Finance can also execute Swaps and enter various yield farms and automated vaults from within Step with any fees on such value accrual services going back to STEP stakers."""
+Users of Step Finance can also execute Swaps and enter various yield farms and automated vaults from within Step with any fees on such value accrual services going back to STEP stakers.
+
+Additional data tools for Solana are available on Step including detailed Transaction History and the Opportunities page, an easily filterable source of aggregate data for DEXs, lenders and margin trading platforms within the ecosystem. 
+
+The recently launched Step Learn is intended to help those entering the Solana ecosystem better use our platform and highlight some of Step's unique features. Moving forward users can expect additional guides and sections to be added as we expand our educational guides throughout the Solana ecosystem.
+
+Step publishes a free biweekly Data Insights newsletter covering trends within the space on topics ranging from DeFi and detailed DEX analysis to NFTs and NFT marketplaces.
+"""
 
 
 [urls]
@@ -36,12 +44,30 @@ name = "Documentation"
 # App link url
 url = "https://docs.step.finance/"
 
+[[urls.other]]
+# App link name
+name = "Learn"
+# App link url
+url = "https://step.finance/learn"
+
+[[urls.other]]
+# App link name
+name = "Opportunities"
+# App link url
+url = "https://app.step.finance/#/opportunities"
+
+[[urls.other]]
+# App link name
+name = "Data Insights"
+# App link url
+url = "https://stepdata.substack.com"
+
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["StepFinance_"]
+twitter = ["StepFinance_", "StepDataInsight"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
