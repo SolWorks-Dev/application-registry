@@ -23,7 +23,7 @@ Explore the ecosystem and discover new opportunities, learn about each protocol,
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/sonar.svg"
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/sonar.png"
 # URL to app home page
 website = "https://sonar.watch/"
 # URL to app
