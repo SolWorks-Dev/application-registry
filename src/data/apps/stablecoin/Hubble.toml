@@ -1,0 +1,57 @@
+[app]
+# Lower cased application name
+value = "hubbleprotocol"
+# Formatted application name to present in app
+label = "Hubble Protocol"
+# Array of categories, max of 3
+categories = ["stablecoin"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Sole issuers of USDH, allowing you to borrow the stablecoin against your crypto while retaining exposure to price movements on your collateral assets."
+# Long description used in app details
+long = """
+Hubble Protocol is a stablecoin borrowing platform. Hubble allows users to deposit a variety of crypto assets as collateral, and borrow USDH in return. USDH is thus fully overcollateralized by crypto assets. The protocol offers a full loan-management suite, so users can keep track of their collateral value and loan-to-value ratio, as well as manage their loans by depositing/borrowing more collateral, or USDH. 
+
+Hubble is actively onboarding more collateral assets, as well as establishing partnerships across Solana to expand USDH use-cases.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/hubble.svg"
+# URL to app home page
+website = "https://hubbleprotocol.io"
+# URL to app
+application = "https://app.hubbleprotocol.io"
+# Link to github
+github = "https://github.com/hubbleprotocol/"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.hubbleprotocol.io"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["hubbleprotocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["hubbleprotocol"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.hubbleprotocol.io"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["hubbleprotocol"]
