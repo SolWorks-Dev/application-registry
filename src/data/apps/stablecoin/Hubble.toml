@@ -23,7 +23,7 @@ Hubble is actively onboarding more collateral assets, as well as establishing pa
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/hubble.svg"
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/hubble.png"
 # URL to app home page
 website = "https://hubbleprotocol.io"
 # URL to app
