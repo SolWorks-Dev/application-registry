@@ -1,0 +1,53 @@
+[app]
+# Lower cased application name
+value = "dialect"
+# Formatted application name to present in app
+label = "Dialect"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Making web3 messaging magical. Build with our open-source tooling for dynamic dApp notifications, wallet-to-wallet chat, & interoperable inboxes."
+# Long description used in app details
+long = "Dialect is a smart messaging protocol — powering dynamic, composable dapp notifications and wallet-to-wallet chat. We are integrated with over 20 projects in the ecosystem across DeFi, NFTs, DAOs, and Explorers."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/dialect.svg"
+# URL to app home page
+website = "https://dialect.to/"
+# URL to app
+application = "https://dialect.to/"
+# Link to github
+github = "https://github.com/dialectlabs"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://dialect.gitbook.io/documentation/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["saydialect"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["dialect"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://dialectlabs.medium.com"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

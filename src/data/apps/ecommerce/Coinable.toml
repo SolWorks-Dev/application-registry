@@ -1,0 +1,54 @@
+[app]
+# Lower cased application name
+value = "coinable"
+# Formatted application name to present in app
+label = "Coinable"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Web3 eCommerce for the masses. Start accepting crypto today."
+# Long description used in app details
+long = "Coinable enables anyone to access and manage e-commerce business opportunities with Web3-powered customer engagement and accounting tools. Start accepting crypto today."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/coinable.png"
+# URL to app home page
+website = "https://coinablepay.com/"
+# URL to app
+application = "https://coinablepay.com/"
+# Link to github
+github = "https://github.com/coinable"
+
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.coinablepay.com/guides/start-here"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["coinablepay"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["RgU669RNRk"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
