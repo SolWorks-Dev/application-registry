@@ -111,6 +111,7 @@ class DataBuilder {
 
         this._data.apps = apps;
         this._data.categories = categories;
+        console.log(`${apps.length} projects present across ${categories.length} categories.`);
 
         return this;
     }

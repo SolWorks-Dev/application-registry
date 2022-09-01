@@ -1,0 +1,59 @@
+[app]
+# Lower cased application name
+value = "uxdprotocol"
+# Formatted application name to present in app
+label = "UXD Protocol"
+# Array of categories, max of 3
+categories = ["stablecoin"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "UXD Protocol is a fully collateralized decentralized stablecoin backed by delta-neutral position using derivatives."
+# Long description used in app details
+long = """
+UXD Protocol is a fully collateralized decentralized stablecoin backed by delta-neutral position using derivatives.
+
+UXD is a next-generation decentralized stablecoin that integrates with top derivative trading exchanges on Solana in order to create a "delta-neutral" position that collateralizes the stablecoin. Our first derivative dex will be mango markets. Through UXD's construct, we are able to solve the "stablecoin trilemma", allowing UXD to be stable, capital efficient, and decentralized. Moreover, the stablecoin has native yield from the "funding rate" of the perpetual futures position it puts on, allowing UXD stakeholders to generate yield as a result. 
+
+See [UXD Basics](https://docs.uxd.fi/uxdprotocol/overview/uxd-basics) for an explanation of concepts like Derivatives, Delta, Perpetual Futures, Funding Rates, etc.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/uxd.png"
+# URL to app home page
+website = "https://uxd.fi/"
+# URL to app
+application = "https://app.uxd.fi/"
+# Link to github
+github = "https://github.com/uxdprotocol"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.uxd.fi/uxdprotocol/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["UXDProtocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["kXwXQfu5kV"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://uxdprotocol.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
