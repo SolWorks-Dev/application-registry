@@ -1,0 +1,110 @@
+[app]
+# Lower cased application name
+value = "jupiter"
+# Formatted application name to present in app
+label = "Jupiter"
+# Array of categories, max of 3
+categories = ["aggregator"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Jupiter is the key liquidity aggregator for Solana, offering the widest range of tokens and best route discovery between any token pair."
+# Long description used in app details
+long = """
+Jupiter is the key liquidity aggregator for Solana, offering the widest range of tokens and best route discovery between any token pair. 
+
+We aim to provide the most friendly UX for users and most powerful tools for developers to allow them to easily access the best-in-class swap in their application, interface or on-chain programs.
+
+For a great example of an integration, check out Mango Markets, which uses Jupiter to power their sweet swaps:
+
+https://trade.mango.markets/swap (source code)
+
+## Why Jupiter?
+
+Integrate with Jupiter in order to:
+- Offer best price swaps for your users
+- Automatically stay up to date with the latest tokens and liquidity sources
+- Make swaps a revenue source by adding your own platform fee to the transaction 
+- Set caching options to make your swap as speedy or as precise you wish.
+
+## Program Address
+
+The latest Jupiter program is: `JUP3c2Uh3WA4Ng34tw6kPd2G4C5BB21Xo36Je1s32Ph`
+
+The latest SDK(2.x.x) currently uses: `JUP3c2Uh3WA4Ng34tw6kPd2G4C5BB21Xo36Je1s32Ph`
+
+Earlier SDK versions (1.x.x) use: `JUP2jxvXaqu7NQY1GmNF4m1vodw12LVXYxbFL2uJvfo`
+
+## Available SDKS
+
+Currently, we provide the following sdks:
+- [Jupiter Core Library](https://docs.jup.ag/jupiter-core/jupiter-sdk/v1/using-jupiter-core#usage). Use this to build your own custom frontend or bot.
+- [Jupiter React-Hook](https://docs.jup.ag/jupiter-core/jupiter-sdk/v1/using-the-react-hook). Use this to add the same jup.ag frontend to your frontend.
+- [Jupiter API](https://docs.jup.ag/jupiter-api). The easiest way for developers to access liquidity on Solana
+
+On-chain program support coming soon. 
+
+## Developer Support 
+
+Developing on Solana can be a landmine of potential hiccups. On our end, we aim to make developing a good swap interface or program as seamless and magical as possible. We do this by:
+- Remove key barriers to providing a good UX, including having clear instructions for issues like ATAs and open orders.
+- Provide various methods of accessing the swap, so all apps, dapps, and programs can use it seamlessly
+- Provide updated liquidity sources, token lists, and possible UX improvements as soon as possible.
+
+If you have questions or need support, you can ask in the #developer-support channel in our discord:  https://discord.gg/jup.
+
+Also, if you are integrating with Jupiter, let us know in the channel or dm @nevaben on telegram and we will highlight your project!
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/jupiter.svg"
+# URL to app home page
+website = "https://jup.ag/"
+# URL to app
+application = "https://jup.ag/"
+# Link to github
+github = "https://github.com/jup-ag"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.jup.ag/"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Statistics"
+# app link URL
+url = "https://jup.ag/stats"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Podcast"
+# app link URL
+url = "https://podcast.jup.ag/"
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["JupiterExchange"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["jup"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.jup.ag/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
