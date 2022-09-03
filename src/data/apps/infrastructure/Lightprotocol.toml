@@ -1,0 +1,100 @@
+[app]
+# Lower cased application name
+value = "lightprotocol"
+# Formatted application name to present in app
+label = "Light Protocol"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "The Privacy Operating System on Solana."
+# Long description used in app details
+long = """
+Light is key privacy infrastructure for Solana, offering the most accessible privacy rails in the ecosystem.
+
+We aim to provide the most friendly UX for users and most powerful tools for developers to allow them to easily access privacy infra in their wallets or applications.
+
+## Why Light?
+
+Integrate with Light in order to:
+- protect your users' on-chain identity with privacy-preserving token transfers.
+- tap into shared Light Protocol liquidity to offer best-in-class privacy guarantees instantly.
+- benefit from battle-tested zero-knowledge cryptography via simple API calls.
+
+## Program Address
+
+The latest Light program is: 2c54pLrGpQdGxJWUAoME6CReBrtDbsx5Tqx4nLZZo6av
+
+The latest SDK currently uses: 2c54pLrGpQdGxJWUAoME6CReBrtDbsx5Tqx4nLZZo6av.
+
+You can find the source code for the latest program and audit report here.
+
+Devnet program access coming soon.
+
+## Available SDKS
+
+Currently, we provide the following SDKwe provide the following SDKs:
+- Light Widget. The easiest way for dapp developers to access private transactions on Solana.
+- Light Wallet SDK. Private Alpha. If you want to partner, reach out on Discord or dm @swenschaeferjohann on Telegram.
+
+To swiftly experience private transactions yourself, go to: https://shield.lightprotocol.com.
+
+## Developer Support 
+
+Developing on Solana can be a minefield of potential hiccups. On our end, we aim to make add privacy into your interface or program as seamless and magical as possible. We do this by:
+- Remove key barriers to providing a good UX
+- Provide various methods of accessing private transactions, so all wallets, apps, dapps, and programs can use it seamlessly
+- Provide updated liquidity sources and possible UX improvements as soon as possible.
+
+If you have questions or need support, you can ask in the #developers channel in our discord:  https://discord.com/invite/WDAAaX6je2. or send us an email: support@lightprotocol.com. We'll reply asap.
+
+Also, if you are integrating with Light, let us know in the channel or dm @swenschaeferjohann on telegram and we will highlight your project!
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/lightprotocol.png"
+# URL to app home page
+website = "https://www.lightprotocol.com/"
+# URL to app
+application = "https://shield.lightprotocol.com/"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Documentation"
+# app link URL
+url = "https://docs.lightprotocol.com/"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Vision Paper"
+# App link URL
+url = "https://medium.com/@swen.schaeferjohann/a-vision-for-light-protocol-5fd7a5837bfa"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["LightProtocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["WDAAaX6je2"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/@swen.schaeferjohann"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
