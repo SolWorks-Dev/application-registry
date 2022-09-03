@@ -27,21 +27,19 @@ Integrate with Light in order to:
 
 ## Program Address
 
-The latest Light program is: 2c54pLrGpQdGxJWUAoME6CReBrtDbsx5Tqx4nLZZo6av
+The latest Light program is: `2c54pLrGpQdGxJWUAoME6CReBrtDbsx5Tqx4nLZZo6av`
 
-The latest SDK currently uses: 2c54pLrGpQdGxJWUAoME6CReBrtDbsx5Tqx4nLZZo6av.
-
-You can find the source code for the latest program and audit report here.
+The latest SDK currently uses: `2c54pLrGpQdGxJWUAoME6CReBrtDbsx5Tqx4nLZZo6av`
 
 Devnet program access coming soon.
 
 ## Available SDKS
 
-Currently, we provide the following SDKwe provide the following SDKs:
+Currently, we provide the following SDKs:
 - Light Widget. The easiest way for dapp developers to access private transactions on Solana.
 - Light Wallet SDK. Private Alpha. If you want to partner, reach out on Discord or dm @swenschaeferjohann on Telegram.
 
-To swiftly experience private transactions yourself, go to: https://shield.lightprotocol.com.
+To swiftly experience private transactions yourself, go to: [https://shield.lightprotocol.com](https://shield.lightprotocol.com).
 
 ## Developer Support 
 
@@ -50,7 +48,7 @@ Developing on Solana can be a minefield of potential hiccups. On our end, we aim
 - Provide various methods of accessing private transactions, so all wallets, apps, dapps, and programs can use it seamlessly
 - Provide updated liquidity sources and possible UX improvements as soon as possible.
 
-If you have questions or need support, you can ask in the #developers channel in our discord:  https://discord.com/invite/WDAAaX6je2. or send us an email: support@lightprotocol.com. We'll reply asap.
+If you have questions or need support, you can ask in the #developers channel in our [discord](https://discord.com/invite/WDAAaX6je2) or send us an [email](mailto:support@lightprotocol.com). We'll reply asap.
 
 Also, if you are integrating with Light, let us know in the channel or dm @swenschaeferjohann on telegram and we will highlight your project!
 """

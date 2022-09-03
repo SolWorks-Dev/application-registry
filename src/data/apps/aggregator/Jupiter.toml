@@ -54,7 +54,7 @@ Developing on Solana can be a landmine of potential hiccups. On our end, we aim 
 - Provide various methods of accessing the swap, so all apps, dapps, and programs can use it seamlessly
 - Provide updated liquidity sources, token lists, and possible UX improvements as soon as possible.
 
-If you have questions or need support, you can ask in the #developer-support channel in our discord:  https://discord.gg/jup.
+If you have questions or need support, you can ask in the #developer-support channel in our [discord](https://discord.gg/jup).
 
 Also, if you are integrating with Jupiter, let us know in the channel or dm @nevaben on telegram and we will highlight your project!
 """
