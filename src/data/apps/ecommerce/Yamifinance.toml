@@ -1,0 +1,72 @@
+[app]
+# Lower cased application name
+value = "yamifinance"
+# Formatted application name to present in app
+label = "Yami Finance"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Launch your own Point of Sale for crypto in seconds and its totally free!"
+# Long description used in app details
+long = """
+Yami Finance is a purely permission-less solution for point-of-sales, token swaps and private transactions that is launchable in only 10 seconds. Yami is building the future of in-person digital payments leveraging privacy for realistic user experience. Yami is designed to act as an all-rewarding alternative to traditional gated financial systems. 
+
+**What does this mean for you?**
+Well, we've made it possible to complete all of the tasks you would in your regular day to day life all powered by the worlds fastest blockchain. Yami Finance will provide tools such as merchant dashboards, point-of-sale (+invoicing), digital asset swaps & management and so much more. 
+
+## Yami Pay
+Yami Pay at its core is a simple application. It is designed to enable any one individual or organization to launch a clean point-of-sale interface on the Solana blockchain in less than 3 clicks. 
+
+It builds on top of the framework provided by Solana Pay enabled by an extremely high throughput network that can confirm transactions in sub-second timeframes internationally. From start to finish your business could start receiving payments via QR code in less than 2 minutes. 
+
+Yami Pay is still in active development - although all transactions are Secure via the blockchain the UI may change as we continue development on the project.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/yami.png"
+# URL to app home page
+website = "https://yamipay.xyz/"
+# URL to app
+application = "https://yamipay.xyz/"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.yamipay.xyz/"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Litepaper"
+# app link URL
+url = "https://docs.yamipay.xyz/fundamentals/yami-litepaper"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["yamifinance"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = []
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
