@@ -1,0 +1,80 @@
+[app]
+# Lower cased application name
+value = "mtnpay"
+# Formatted application name to present in app
+label = "mtnPay"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "mtnPay is the Solana API for payment companies that enforces a standard for NFT and DeFi integration into payments and commerce."
+# Long description used in app details
+long = """
+mtnPay is the Solana API for payment companies.
+
+[mtnAPI](https://mtnpay.gitbook.io/api-docs/) enforces a standard for NFT and DeFi integration into payments and commerce.
+
+Our infrastructure composes on-chain transactions to unlock tailored commerce experiences on the Solana settlement layer.
+
+We seek to power the “Pay with Solana” button.
+
+## Features
+📱**SPL and Solana Token Payments**
+Enables payments when both parties want to use a specified SPL token as payment
+
+🔄 **Token Swapped Payments**
+We leverage [Jupiter](https://jup.ag/) so merchants can accept token agnostic payments
+
+🤳🏻**‘Headless’ NFT Minting**
+Enables a “headless mint” via a QR code or through a wallet redirect link using [Metaplex](https://www.metaplex.com/)
+
+📴 **NFT & SFT Discounts**
+Payment Discount enables a discount if the user owns an NFT from a specified collection
+
+📸 **NFT Photobooth**
+Booth is an iPad app that provides a photo booth experience via mtnAPI endpoints 
+
+✔️ **NFT & SFT Verification**
+Enables verification to see if the purchaser is holding an NFT from a specified collection
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/mtnPay.png"
+# URL to app home page
+website = "https://mtnpay.so/"
+# URL to app
+application = "https://mtnpay.so/"
+# Link to github
+github = "https://github.com/mtnPay"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://mtnpay.gitbook.io/api-docs/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["mtnPay"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["gD6tFRbGYV"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

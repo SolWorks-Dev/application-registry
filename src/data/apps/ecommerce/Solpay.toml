@@ -1,0 +1,58 @@
+[app]
+# Lower cased application name
+value = "solpay.store"
+# Formatted application name to present in app
+label = "SolPay.store"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Solana Pay for your online store. Pay instantly with a QR code or your Web 3.0 wallet, no fees. WP integration ready."
+# Long description used in app details
+long = """
+It’s exactly what the name says, a quick and easy way to integrate Solana Pay into your online store. We’re building plugins for all major ecommerce platforms to help store owners integrate web 3.0 payments.
+
+In fact we’ve built a plugin that integrates into WordPress stores. In less than a minute, the store owner is ready to accept payments via Solana Pay. It’s the first plugin already approved in the official WordPress plugin directory and you can try it live on our demo store.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/solpaystore.jpg"
+# URL to app home page
+website = "https://solpay.store/"
+# URL to app
+application = "https://solpay.store/"
+# Link to github
+github = ""
+
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Demo"
+# app link URL
+url = "https://solpay.store/demo/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["SolPayStore"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["hczVjRjVBq"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://solpays.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
