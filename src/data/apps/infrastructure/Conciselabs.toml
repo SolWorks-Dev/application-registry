@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "conciselabs"
+# Formatted application name to present in app
+label = "Concise Labs"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Providing fast & reliable data infra. On-chain querying within fraction of seconds. Get paginated results in human-readable form 30x faster than getProgramAccounts. Filter & sort your data."
+# Long description used in app details
+long = "Providing fast & reliable data infra. On-chain querying within fraction of seconds. Get paginated results in human-readable form 30x faster than getProgramAccounts. Apply filters on data while querying and sort the records."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/conciselabs.png"
+# URL to app home page
+website = "https://conciselabs.io/"
+# URL to app
+application = "https://app.conciselabs.io/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["ConciseLabs"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["dh4u6K8B4C"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://www.wordcelclub.com/conciselabs.sol"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
