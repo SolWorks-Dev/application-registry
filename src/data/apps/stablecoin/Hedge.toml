@@ -1,0 +1,59 @@
+[app]
+# Lower cased application name
+value = "hedge"
+# Formatted application name to present in app
+label = "Hedge"
+# Array of categories, max of 3
+categories = ["stablecoin"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Hedge is a protocol that enables the minting of USH, a stablecoin soft-pegged to the US dollar. USH is minted on flexible terms and gives users instant access to the USH ecosystem."
+# Long description used in app details
+long = """
+Hedge is a protocol that enables the minting of USH, a stablecoin soft-pegged to the US dollar. USH is minted on flexible terms and gives users instant access to the USH ecosystem.
+
+Hedge allows users to take out 0% interest loans for a one-time fee by depositing collateral for USH. Users are incentivized to keep their collateral-to-debt ratio above 110% to avoid liquidation. When an undercollateralized vault is liquidated, users who have deposited USH in a stability pool are returned discounted collateral as a reward. USH is always redeemable for its underlying value, but a fee ensures the protocol is impacted infrequently.
+
+For more detail, see our [whitepaper](https://drive.google.com/file/d/1-W_LlAhpgXgl8rlMJMt8e-ztkHe53c3g/view).
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/hedgelogo.svg"
+# URL to app home page
+website = "https://www.hedge.so/"
+# URL to app
+application = "https://www.hedge.so/borrow"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.hedge.so/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["HedgeLabs"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["qfqegrRWmw"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://hedgelabs.medium.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
