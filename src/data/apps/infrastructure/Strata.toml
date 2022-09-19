@@ -1,0 +1,61 @@
+[app]
+# Lower cased application name
+value = "strata"
+# Formatted application name to present in app
+label = "Strata Protocol"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Strata Launchpad is the fastest way to launch a token, whether it’s a social token, gamefi token, dao token, or community token."
+# Long description used in app details
+long = """
+The Strata Protocol lets you effortlessly create and price tokens and token collectives on Solana!
+
+Looking to launch a token? Check out our launchpad at [app.strataprotocol.com](https://app.strataprotocol.com). The documentation behind the launchpad can be found under the "Launchpad" section of our docs.
+
+Looking to learn more about chat? [Chat Docs](https://docs.strataprotocol.com/im/getting_started)
+
+Looking to learn more about tokens, systems of tokens, and bonding curves? [Read the docs](https://docs.strataprotocol.com/)
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/strata.png"
+# URL to app home page
+website = "https://strataprotocol.com/"
+# URL to app
+application = "https://app.strataprotocol.com/"
+# Link to github
+github = "https://github.com/StrataFoundation/strata"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.strataprotocol.com/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["StrataProtocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["XQhCFg77WM"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.strataprotocol.com/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
