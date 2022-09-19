@@ -1,0 +1,71 @@
+[app]
+# Lower cased application name
+value = "ratiofinance"
+# Formatted application name to present in app
+label = "Ratio Finance"
+# Array of categories, max of 3
+categories = ["stablecoin"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Ratio Finance is a collateralized debt position (CDP) platform that allows you to leverage your Solana LPs while still gaining yield from farming."
+# Long description used in app details
+long = """
+## Who are we?
+Ratio Finance is a risk-adjusted over-collateralized debt position (CDP) protocol on the Solana blockchain that allows users  to mint Ratio's proprietary stablecoin (USDr) using yield-bearing collateral without sacrificing underlying yield. 
+
+In the first version of Ratio Finance, we accept stablecoin LP from Saber as collateral for minting USDr. In the future, new forms of collateral will be added once their risk has been assessed through decentralized governance. 
+
+## What do we bring to Solana?
+We are on a mission to unlock the liquidity of stable Solana assets and mitigate downside risk for liquidity providers.
+
+Users can deposit stable LP into our platform to mint up to 97% of the deposit's worth in USDr. The user does not sacrifice the yield of their deposits in order to do so, thus creating something analagous to **negative-interest loans**. 
+
+Ratio’s key differentiator is combining the fundamentals of traditional credit risk assessment and other qualitative variables to form our "Ratio Risk Ratings" (RRR), which account for the nuances of this new asset class. The RRR of each asset deposited into our platform is used to determine the overcollateralization ratios for that asset. Thus, the amount of leverage that a user can gain is determined by the real-time risk of the underlying collateral. This allows our platform to be highly capital efficient.  
+
+## Take advantage of what we have to offer!
+- Put your LP assets to work on a decentralized platform /yield aggregator that simultaneously permits token farming and offers collateralized lending positions informed by proprietary risk metrics.
+- Mint Ratio's USDr stablecoin from your collateralized LP positions to unlock leverage within the Solana ecosystem while earning increased yield farming rewards.
+- Earn RATIO tokens through our continuous fairdrops. 
+- Become part of the Ratio community by joining our Telegram, Discord, or by following us on Twitter.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/ratiofinance.jpg"
+# URL to app home page
+website = "https://ratio.finance/"
+# URL to app
+application = "https://app.ratio.finance/"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.ratio.finance/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["ratiofinance"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["5v8AYva8nU"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/@ratiofinance"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["ratiofinance"]
