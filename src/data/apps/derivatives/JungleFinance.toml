@@ -1,0 +1,61 @@
+[app]
+# Lower cased application name
+value = "junglefinance"
+# Formatted application name to present in app
+label = "Jungle Finance"
+# Array of categories, max of 3
+categories = ["derivatives"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Jungle Finance is a Defi primitive protocol built on the Solana blockchain, allowing users to create, buy, sell and redeem their staking or farm rewards instantaneously. "
+# Long description used in app details
+long = """
+Jungle Finance is a Defi primitive protocol built on the Solana blockchain, allowing users to create, buy, sell and redeem their staking or farm rewards instantaneously. SPL Tokens can be deposited into Jungle auto-compounding vaults in exchange for two separate tokens; one which represents ownership of the staking or farm rewards generated over a set period of time and the other representing ownership of the base asset minus the rewards. 
+
+The reward tokens (I-TOKENS) may be bought or sold up front, whether to speculate on yields increasing or decreasing, or as a method of increasing capital efficiency by allowing immediate access to future yield. These tokens are essentially yield futures on supported assets. 
+
+Base asset tokens (J-TOKENS) may be used to speculate on asset price, as collateral for loans or synthetic assets and a great number of additional potential use-cases which we invite the Solana DeFi community to aid and compete with us in building.
+
+All features of the Jungle Finance platform are facilitated by the JFI token, which is a governance token designed to grant holders the ability in the future to vote on supported assets, pools, farm rewards, treasury allocation, partnerships and feature implementation.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/junglefinance.png"
+# URL to app home page
+website = "https://jungledefi.io"
+# URL to app
+application = "https://app.jungledefi.io"
+# Link to github
+github = "https://github.com/Jungle-Finance"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.jungledefi.io/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["JungleDeFi"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["rhdKc2zgU2"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/@JungleDeFi"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
