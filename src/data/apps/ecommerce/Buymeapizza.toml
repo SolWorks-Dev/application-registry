@@ -1,0 +1,51 @@
+[app]
+# Lower cased application name
+value = "buymeapizza"
+# Formatted application name to present in app
+label = "BuyMeaPizza"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Accept donations in crypto on your website for free."
+# Long description used in app details
+long = """
+BuyMeaPizza let's you receive crypto easily, you can create an account and get a custom link or add our widget to your website.
+
+We use Solana to make transactions get to your in seconds, the service of using our platform is free, you only need to pay solana's services fee but our aim is to fund it as well in the future :)
+
+We are currently on beta so any feedback is welcome! 
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/buymeapizza.png"
+# URL to app home page
+website = "https://www.buymea.pizza/"
+# URL to app
+application = "https://www.buymea.pizza/"
+# Link to github
+github = "https://github.com/Dizotoff/buy-me-pizza"
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = []
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = []
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
