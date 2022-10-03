@@ -1,0 +1,67 @@
+[app]
+# Lower cased application name
+value = "backpack"
+# Formatted application name to present in app
+label = "Backpack"
+# Array of categories, max of 3
+categories = ["wallet"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "The home for your xNFTs."
+# Long description used in app details
+long = """
+X stands for eXecutable—tokenized code representing ownership rights over its execution. The idea is simple, so simple it’s surprising no one has done it yet. But it’s as simple as it is powerful.
+
+Like a wallet, Backpack manages your private keys and connects to apps. But unlike anything else, it’s asset and protocol agnostic. Everything in the wallet is an xNFT. This is a big deal. Most wallets only show your tokens. Some don’t even show your precious JPEGs. 
+
+Backpack, however, is a home for everything. It’s an open, programmable system built for Web3. And like any other application operating system, has a set of developer frameworks and APIs associated with it, allowing anyone to build their own xNFT apps for any protocol on any blockchain—without permission.
+
+This is a lot, and believe it or not, this is just the beginning. There’s a lot more on our roadmap that we can’t wait to share. We’re nurturing a vibrant ecosystem of xNFTs, so if you’re building in crypto, reach out. Let’s build together.
+
+WAO.
+
+So WTF are xNFTs?
+
+Well, they’re just apps, but the story doesn’t end here. On the one hand, they’re just apps, but on the other hand, they’re so much more.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/backpack.png"
+# URL to app home page
+website = "https://www.backpack.app/"
+# URL to app
+application = "https://www.backpack.app/"
+# Link to github
+github = "https://github.com/coral-xyz/backpack"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.xnft.gg/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["xNFT_Backpack", "0xCoral", "anchorlang"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["waogg"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://www.coral.community"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
