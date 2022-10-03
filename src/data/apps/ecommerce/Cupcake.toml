@@ -1,0 +1,67 @@
+[app]
+# Lower cased application name
+value = "cupcakeprotocol"
+# Formatted application name to present in app
+label = "Cupcake Protocol"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Cupcake is closing the gap between the digital and physical worlds. Prove ownership, attendance, loyalty and more with Sprinkles."
+# Long description used in app details
+long = "Cupcake is closing the gap between the digital and physical worlds. Prove ownership, attendance, loyalty and more with Sprinkles."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/cupcakeprotocol.png"
+# URL to app home page
+website = "https://cupcake.com"
+# URL to app
+application = "https://cupcake.com/wallet"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Store"
+# App link URL
+url = "https://cupcake.com/store"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Instagram"
+# App link URL
+url = "https://instagram.com/cupcakeprotocol"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "TikTok"
+# app link URL
+url = "https://www.tiktok.com/@cupcakeprotocol"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["cupcakeprotocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = []
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
