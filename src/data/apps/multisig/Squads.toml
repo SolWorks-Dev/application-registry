@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "squads"
+# Formatted application name to present in app
+label = "Squads"
+# Array of categories, max of 3
+categories = ["multisig"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "The multisig standard you were looking for on Solana."
+# Long description used in app details
+long = "Squads Protocol is the multi-signature wallet standard of Solana, providing critical infrastructure for teams, DAOs and institutions looking to securely manage their treasuries, programs, tokens and workflows."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/c565ed98423605aec498c6c027853f3ea3e920af/src/images/logos/squads.svg"
+# URL to app home page
+website = "https://squads.so"
+# URL to app
+application = "https://v3.squads.so"
+# Link to github
+github = "https://github.com/Squads-Protocol"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["SquadsProtocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["bfBD4EA7bj"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

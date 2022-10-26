@@ -1,0 +1,52 @@
+[app]
+# Lower cased application name
+value = "soldecoder"
+# Formatted application name to present in app
+label = "Sol Decoder"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Now part of the same company as Communi3! A suite of tools to find / judge hype of mints. Alpha generating Discord bots that any Discord can add. Whitelist management tool to get whitelisted in < 10 seconds. iOS & Android app live"
+# Long description used in app details
+long = """A tech-based NFT project, which recently got acquired by Communi3 and part of C3.  
+
+The website and tools provide a search engine that gathers DATA from private (paid) DAO Discord channels, Twitter accounts, and web3 companies, such as Magic Eden, Famous Fox Federation, and others. The DATA is used in different tools we have built for ETH & SOL, such as alerts/calls, alpha, charts, graphs, evaluation, hyperlinks, and keyword searching. Besides the website and discord, you can download our app in the Android and Apple stores.
+
+We have built tech called Seamless, a revolutionary whitelist distribution platform that is used by +300 projects and distributed over 8.000 spots to over 1.900 users. We have also built a tool to grow and built your community/project called "Engage-2-earn", which can be used by other DAOs too.  
+
+With a team of +10 developers and over +20 Discord staff members, we are consistently building, updating our technology/tools, and providing support to all DAO & Community members."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/2d66f35e6c4f7daa90255b724158a4257952e80a/src/images/logos/soldecoder.png"
+# URL to app home page
+website = "https://soldecoder.app/"
+# URL to app
+application = "https://soldecoder.app/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["https://twitter.com/SOL_decoder"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["https://discord.gg/sol-decoder"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://docs.soldecoder.app/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []

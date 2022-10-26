@@ -1,0 +1,50 @@
+[app]
+# Lower cased application name
+value = "battlecity"
+# Formatted application name to present in app
+label = "BattleCity"
+# Array of categories, max of 3
+categories = ["gaming"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "BattleCity Project is a Web3-gaming platform created by MangoX that includes the games MU of Heroes, Legend of Tank and more. It help users have fun, monetize their experiences, and be a part of the BattleCity.io ecosystem"
+# Long description used in app details
+long = """Battlecity Project is a Web3-gaming developed by MangoX. BattleCity creates the blockchain-supported Metaverse of BattleCity.io, called World of Legends Universe (“WOL Universe”), where diverse and addictive World of Legends Games (WOL Games) such as MU of Heroes, Legend of Tank, and other GameFi projects are being developed, finished, and planned with strong support from blockchain technology to help users have fun, monetize their experiences, and be a part of the BattleCity.io ecosystem, as our vision: [PLAY for JOY] - [EARN for FUN]-[OWN for REAL] = (“Play to Earn”) for all game-players around. 
+
+BattleCity.io brings blockchain technology to: (1) build a sustainable ecosystem (BattleCity.io’s ecosystem) to support game-builders (include game studios or individual game developers) transform their games into GameFi projects, and, (2) provide an NFT Marketplace (BattleCity.io Marketplace) to support game-players to be able to play and earn via multiple WOL Games, participate and trade NFTs in player-owned economies via network governance and consensus. 
+
+In short, here are the following highlights of WOL Games listed on Metaverse of BattleCity.io for everyone’s reference: Play To Earn (P2E). Player vs Player (PvP). Team vs Team. The winner takes it all (W2E). WOL NFT on demand (Mint your NFT assets when you want). Profit-sharing for WOL Holders keeping at least 500.000 WOL Tokens for at least 45 (forty-five) consecutive days. (WOL HOLD policy)."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://github.com/SolWorks-Dev/resources/blob/3f2807614bf6988a753f156f80511963112248ed/src/images/logos/battlecity.svg"
+# URL to app home page
+website = "https://battlecity.io/"
+# URL to app
+application = "https://battlecity.io/"
+# Link to github
+github = "https://github.com/battle-city-io"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["BattleCityHQ"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["PcZJG8h9SK"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.battlecity.io/"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["battlecityhq"]

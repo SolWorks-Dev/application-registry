@@ -1,0 +1,54 @@
+[app]
+# Lower cased application name
+value = "alfprotocol"
+# Formatted application name to present in app
+label = "Alfprotocol"
+# Array of categories, max of 3
+categories = ["lending"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "All-in-one solution for all DeFi services including leveraged yield farming & bespoke staking solution."
+# Long description used in app details
+long = """Allotment ALF Protocol - Lending & Borrowing provision with multi assets collateral support. Users can deposit their assets and earn an APY on top of it, while others can borrow against their deposit in various supported assets and use those deposited assets elsewhere.   
+
+Alfprotocol Staking - A unique single token locked staking solution for all Solana based tokens with a modern and easy to use UI. Already over $150k worth of our partners tokens are staked.   
+
+Decentralised Exchange - Alfprotocol acquired a decentralised exchange Soldex and already integrated their DEX into the Alfprotocol. Users can swap supported tokens in a simple and secure way.   
+
+Farming Module (Developed by Soldex) - Alfprotocol also integrated Soldex farming module into the Alfprotocol where users can open their yield farming positions. 
+
+Alf Leverage - Leveraged Yield Farming provision with the possibility to borrow up to 200x with Raydium pools support. Later Soldex & Orca pools will be supported as well for a leveraged yield farming. Users can borrow before opening a yield farming position to increase their profits."""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/fb4d4aab4c96601b9887dd4837f985ccb66f3d8e/src/images/logos/alf.svg"
+# URL to app home page
+website = "https://www.alfprotocol.com"
+# URL to app
+application = "https://app.alfprotocol.com/profile/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["alfprotocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["WBmKUH4rk2"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/@alfprotocol"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["alfprotocol"]

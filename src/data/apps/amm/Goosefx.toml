@@ -1,0 +1,46 @@
+[app]
+# Lower cased application name
+value = "goosefx"
+# Formatted application name to present in app
+label = "GooseFX"
+# Array of categories, max of 3
+categories = ["amm"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "A full suite DeFi platform to trade crypto, derivatives, NFTs, and single sided liquidity pools with yield farming."
+# Long description used in app details
+long = "GooseFX is a full suite DeFi & NFT exchange offering a DEX, perpetuals, NFTs, and single sided liquidity pools. We are a complete DeFi experience where you can trade crypto, derivatives, and NFTs all through one simple and efficient user interface."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/fb4d4aab4c96601b9887dd4837f985ccb66f3d8e/src/images/logos/gfx.svg"
+# URL to app home page
+website = "https://goosefx.io/"
+# URL to app
+application = "https://app.goosefx.io/swap"
+# Link to github
+github = "https://github.com/GooseFX1"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["GooseFX1"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["cDEPXpY26q"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/goosefx"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
