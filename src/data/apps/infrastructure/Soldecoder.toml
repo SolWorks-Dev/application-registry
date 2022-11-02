@@ -37,11 +37,11 @@ github = ""
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["https://twitter.com/SOL_decoder"]
+twitter = ["SOL_decoder"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = ["https://discord.gg/sol-decoder"]
+discord = ["sol-decoder"]
 
 # array of medium accounts
 # username or link only
