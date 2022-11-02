@@ -2,7 +2,7 @@
 # Lower cased application name
 value = "soldecoder"
 # Formatted application name to present in app
-label = "Sol Decoder"
+label = "SOL Decoder"
 # Array of categories, max of 3
 categories = ["infrastructure"]
 # Curation category flag
