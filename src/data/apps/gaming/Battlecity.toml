@@ -23,7 +23,7 @@ In short, here are the following highlights of WOL Games listed on Metaverse of 
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://github.com/SolWorks-Dev/resources/blob/3f2807614bf6988a753f156f80511963112248ed/src/images/logos/battlecity.svg"
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/3f2807614bf6988a753f156f80511963112248ed/src/images/logos/battlecity.svg"
 # URL to app home page
 website = "https://battlecity.io/"
 # URL to app
