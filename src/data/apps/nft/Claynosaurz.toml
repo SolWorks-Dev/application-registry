@@ -1,0 +1,50 @@
+[app]
+# Lower cased application name
+value = "claynosaurz"
+# Formatted application name to present in app
+label = "Claynosaurz"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Claynosaurz is a collection of 10,000 3D animated NFTs. Travel back to distant lands. Explore the uncharted, discover lost artifacts. Adventure awaits…"
+# Long description used in app details
+long = """
+Claynosaurz is a collection of 10,000 3D animated NFTs. 
+
+Helmed by a team of leading animation and game industry artists, Claynosaurz aims to rewrite the narrative on how successful IP can be built out of web3. With massive potential for scaling, the Genesis collection is an all access pass to our Universe. Genesis collection sold out (10,000 NFTs).
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/claynosaurz.webp"
+# URL to app home page
+website = "https://claynosaurz.com/"
+# URL to app
+application = "https://magiceden.io/marketplace/claynosaurz"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["Claynosaurz"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["claynosaurz"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
