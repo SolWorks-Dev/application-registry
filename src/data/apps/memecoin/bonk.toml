@@ -1,0 +1,66 @@
+[app]
+# Lower cased application name
+value = "bonk"
+# Formatted application name to present in app
+label = "BONK"
+# Array of categories, max of 3
+categories = ["memecoin"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "The first Solana Dog Coin for the people and by the people."
+# Long description used in app details
+long = """
+BONK is the first Solana dog coin for the people, by the people with 50% of the total supply airdropped to the Solana community. The Bonk contributors were tired of toxic “Alameda” tokenomics and wanted to make a fun memecoin where everyone gets a fair shot. 
+
+We aim to bring back liquidity to Solana DEXes, alongside Openbook's launch, in an initiative we like to call, OPENBONK!
+
+The 50% airdrop will be split as follows:
+- 20% to Solana NFT collections, comprising of 297,000 individual NFTs
+- 15% to early Openbook traders
+- 10% to Solana artists & collectors
+- 5% to Solana developers
+
+For full details please see the [BONKPAPER](https://www.bonkcoin.com/bonkpaper).
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/bonk.jpg"
+# URL to app home page
+website = "https://www.bonkcoin.com"
+# URL to app
+application = "https://www.bonkcoin.com"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "BONKPAPER"
+# App link URL
+url = "https://www.bonkcoin.com/bonkpaper"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["bonk_inu"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = []
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
