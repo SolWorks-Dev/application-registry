@@ -1,0 +1,48 @@
+[app]
+# Lower cased application name
+value = "lily"
+# Formatted application name to present in app
+label = "LILY"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "LILY - an expansion of The Lotus brand - aims to become the landing page of the new web pushing the boundaries through innovative technology, art and informed community."
+# Long description used in app details
+long = """
+LILY - an expansion of The Lotus brand - aims to become the landing page of the new web pushing the boundaries through innovative technology, art and informed community.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/lily.webp"
+# URL to app home page
+website = "https://www.thelotus.io/"
+# URL to app
+application = "https://magiceden.io/marketplace/lily"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["THELILYNFT"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["thelotus"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
