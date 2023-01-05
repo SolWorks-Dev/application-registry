@@ -6,7 +6,7 @@ label = "Ratio Finance"
 # Array of categories, max of 3
 categories = ["stablecoin"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
