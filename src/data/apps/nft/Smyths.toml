@@ -1,0 +1,82 @@
+[app]
+# Lower cased application name
+value = "blocksmith_labs"
+# Formatted application name to present in app
+label = "Smyths"
+# Array of categories, max of 3
+categories = ["nft"]
+# Curation category flag
+is_curated = false
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Smyths is a collection of 4444 noble beings forged through sacred flames."
+# Long description used in app details
+long = """
+Blocksmith Labs was formed by a team of experienced engineers in early February 2022. Our passion for building and providing for the community is what truly kickstarted the project.
+
+Our main aim at Blocksmith Labs is to solve real problems within the ecosystem. To demonstrate this in practice, we have already released our first tool, Mercury. One of the big problems in the space right now is whitelisting, the whole process is tedious. Mercury tackles this problem by making this whole process seamless for both users and projects, users have a clear visibility of which projects they are whitelisted on providing that ease of mind, whilst allowing projects to see how many "true" users have whitelisted on their projects, and being able to export the users whitelist addresses quick and easy. As of today, Mercury has onboarded over 15 projects and 20,000 users.
+
+Holders will be able to stake our NFTs to earn $FORGE tokens. $FORGE will bring various utilities throughout the future of this project, starting with allowing our holders to buy whitelist spots from the projects that we onboard Mercury, allowing easy whitelisting for our holders only.
+
+However this is just the beginning, our roadmap details what our plans are for the short and long-term future, this includes developing various products and apps, enhancing existing ones, and moving into DAO tooling in the long term future.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/smyths.webp"
+# URL to app home page
+website = "https://smyths.io/"
+# URL to app
+application = "https://smyths.io/stake"
+# Link to github
+github = ""
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Mercury"
+# App link URL
+url = "https://mercury.blocksmithlabs.io/"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Bifrost"
+# app link URL
+url = "https://bifrost.blocksmithlabs.io/"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Shift"
+# app link URL
+url = "https://shift.blocksmithlabs.io/"
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = "Raven"
+# app link URL
+url = "https://raven.blocksmithlabs.io/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["BlocksmithLabs"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["blocksmithlabs"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
