@@ -4,6 +4,7 @@ export default interface App {
         label: string;
         categories: string[];
         is_curated: boolean;
+        is_deprecated?: boolean;
     };
     urls: {
         logo: string;
