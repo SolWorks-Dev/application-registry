@@ -1,0 +1,73 @@
+[app]
+# Lower cased application name
+value = "lido"
+# Formatted application name to present in app
+label = "Lido"
+# Array of categories, max of 3
+categories = ["staking"]
+# Curation category flag
+is_curated = true
+
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Lido lets users stake their assets for daily staking rewards. Your staked tokens can be used across the DeFi ecosystem to compound your yield, Use your tokens (which earn daily staking rewards) as collateral for lending, yield farming and more."
+# Long description used in app details
+long = """
+Lido is the leading liquid staking solution - providing a simple and secure way to earn interest on your digital assets. By staking with Lido your assets remain liquid and can be used across a range of DeFi applications, earning extra yield.
+
+1. Staking pool. Protocol to manage deposits, staking rewards, and withdrawals. A separate one for every supported network.
+2. `st[token]`. Unlike staked assets, the Lido st[token] are freely transferable instead of locked as in the case of native staking. Lido lets users operate with staked assets to gain yield on top of yield by leveraging collateral, lending, yield farming, and other kinds of Defi protocols.
+3. DAO. Lido liquid protocols management entity, responsible for picking node operators, configuring the protocol parameters and much more.
+> 📝 To dive into the details of governance design and implementation, proceed to DAO
+4. Node Operators. entities that manage a secure and stable infrastructure for running validator clients for the benefit of the protocols. They’re professional staking providers who can ensure the safety of funds belonging to the protocol users and correctness of validator operations.
+
+'Lido on Solana' is a Lido-DAO governed liquid staking protocol for the Solana blockchain. Anyone who stakes their SOL tokens with Lido will be issued an on-chain representation of SOL staking position with Lido validators, called stSOL. We will work to integrate stSOL widely into the Solana DeFi ecosystem to enable stSOL users to make use of their staked assets in a variety of applications.
+
+Lido on Solana gives you:
+- Liquidity — No delegation/activation delays and the ability to sell your staked tokens
+- One-click staking — No complicated steps
+- Decentralized security — Assets spread across the industry’s leading validators chosen by the Lido DAO
+
+# How Lido on Solana works
+Lido on Solana not only makes it very easy to stake but also provides further utility through stSOL. Let’s look at the process in slight detail. A SOL token holder connects their wallet to the Lido interface (hosted at (https://solana.lido.fi)[https://solana.lido.fi]) and deposits their tokens into the Lido program. They immediately receive stSOL tokens that represent a share of the total pool. Every user’s tokens are first held in a pool controlled by the Lido program.
+
+The Lido program collects the deposited SOL and releases the newly minted stSOL to the user. Beneath the layer, the Lido Program will distribute this SOL uniformly across those validators that are participating. When these delegations accrue rewards on the allotted stake, the total SOL under management increases and this increases the value of stSOL tokens. The Lido DAO governs the Lido Program — and also controls the list of validators that are part of this program.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/lido.svg"
+# URL to app home page
+website = "https://lido.fi/solana"
+# URL to app
+application = "https://solana.lido.fi"
+# Link to github
+github = "https://github.com/lidofinance"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = "Documentation"
+# App link URL
+url = "https://docs.lido.fi"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["lidofinance"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["lido"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://blog.lido.fi"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["lidofinance"]
