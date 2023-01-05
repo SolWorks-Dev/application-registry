@@ -140,8 +140,11 @@ class DataBuilder {
         const apps: App[] = [];
         for (const appPath of appPaths) {
             const app = await this.loadFile(appPath);
+            app.app.is_deprecated = app.app.is_deprecated || false;
             apps.push(app as App);
         }
+
+        console.log('Loaded ' + apps.length + ' apps.')
 
         return apps;
     }
@@ -156,6 +159,8 @@ class DataBuilder {
             const category = await this.loadFile(`/data/categories/${categoryName}`);
             categories.push(category as Category);
         }
+
+        console.log('Loaded ' + categories.length + ' categories.')
 
         return categories;
     }
