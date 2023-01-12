@@ -70,7 +70,13 @@ url = "https://stepdata.substack.com"
 
 [[urls.other]]
 # App link name
-name = "https://www.youtube.com/@The_NextBillion"
+name = "YouTube"
+# App link url
+url = "https://www.youtube.com/@The_NextBillion"
+
+[[urls.other]]
+# App link name
+name = "Spotify"
 # App link url
 url = "https://open.spotify.com/show/2ELv0CtYJYwcsqb9CdUMJi"
 
