@@ -22,7 +22,13 @@ Additional data tools for Solana are available on Step including detailed Transa
 
 The recently launched Step Learn is intended to help those entering the Solana ecosystem better use our platform and highlight some of Step's unique features. Moving forward users can expect additional guides and sections to be added as we expand our educational guides throughout the Solana ecosystem.
 
-Step publishes a free biweekly Data Insights newsletter covering trends within the space on topics ranging from DeFi and detailed DEX analysis to NFTs and NFT marketplaces.
+Step publishes a free weekly Data Insights newsletter covering trends within the space on topics ranging from DeFi and detailed DEX analysis to NFTs and NFT marketplaces.
+
+Step Co-Founder, George Harrap hosts ‘The Next Billion’ podcast which focuses on shining a light on those within the Solana space building for the next wave of crypto users. Members from teams we’ve had in past episodes are: DeFi Land, Samoyedcoin, Friktion and Aten. The Next Billion episodes are available to watch with video on YouTube or stream with audio on Spotify. 
+
+Step is also hosting Solana Crossroads March 31st-April 2nd 2023.
+
+Solana Crossroads is a 3-day conference hosted in Istanbul, Turkey - the crossroads of civilization for thousands of years. Crossroads is a crypto event that connects East and West, providing the opportunity for collaboration with the brightest minds in Solana. It is an event for both the community and builders in the space. Tickets are available exclusively on Aten and can be paid in USDC.
 """
 
 
@@ -62,12 +68,23 @@ name = "Data Insights"
 # App link url
 url = "https://stepdata.substack.com"
 
+[[urls.other]]
+# App link name
+name = "https://www.youtube.com/@The_NextBillion"
+# App link url
+url = "https://open.spotify.com/show/2ELv0CtYJYwcsqb9CdUMJi"
+
+[[urls.other]]
+# App link name
+name = "Solana Crossroads"
+# App link url
+url = "https://www.solanacrossroads.com/"
 
 
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["StepFinance_", "StepDataInsight"]
+twitter = ["StepFinance_", "StepDataInsight", "The_NextBillion", "SolanaCrossroad"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
