@@ -1,6 +1,6 @@
 {
   "name": "@solworks/application-registry",
-  "version": "0.0.49",
+  "version": "0.0.50",
   "description": "SolWorks Application Registry",
   "main": "build/index.js",
   "types": "build/index.d.ts",
