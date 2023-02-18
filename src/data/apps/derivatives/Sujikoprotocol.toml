@@ -1,0 +1,57 @@
+[app]
+# Lower cased application name
+value = "sujikoprotocol"
+# Formatted application name to present in app
+label = "Sujiko Protocol"
+# Array of categories, max of 3
+categories = ["derivatives"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "A first-of-a-kind protocol enabling long/short exposure to major NFT collections."
+# Long description used in app details
+long = """
+Sujiko is derivatives protocol focused on enabling on-chain perps for highly liquid NFT collections. Sujiko enables users to a) short NFTs and b) speculate on high-value NFTs that are too expensive for retail.
+
+We’ve implemented a asset class agnostic framework that enables support for different asset classes (enabling us to expand to crypto, forex, etc).
+
+
+It allows users to take directional positions, akin to Binance perps, through 3 different liquidity mechanisms: a global vAMM, a decentralized orderbook and an auction mechanism for market orders.
+
+**Perps are hard.** That’s before adding 400ms+ latency to every request and focusing on long-tail assets. The secret to Sujiko is in our approach to building a derivatives protocol, focusing on managing risk and tackling liquidity.
+
+To learn more, check out our [docs](https://solworks.notion.site/Sujiko-772d2b629049477f9a7b131f43e642d8).
+"""
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/SUJIKO%20LOGO.png"
+# URL to app home page
+website = "https://sujiko.dev/"
+# URL to app
+application = "https://sujiko.dev/"
+# Link to github
+github = "https://github.com/SolWorks-Dev"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["sujikoprotocol"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["sujiko"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
