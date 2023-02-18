@@ -1,0 +1,47 @@
+[app]
+# Lower cased application name
+value = "shyft"
+# Formatted application name to present in app
+label = "Shyft"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = false
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Seamlessly integrate blockchain features in your dApp with our APIs."
+# Long description used in app details
+long = "Go from idea to reality in a weekend. Our wide range of scalable, lightning fast APIs help you launch quickly and efficiently. Integrating marketplace, NFTs, tokens, and other blockchain features into your dApp has never been easier."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/shyft.svg"
+# URL to app home page
+website = "https://shyft.to/"
+# URL to app
+application = "https://shyft.to/"
+# Link to github
+github = "https://github.com/Shyft-to"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["Shyft_to"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["QutuZNp3Us"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/shyft-to"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["shyft_to"]
