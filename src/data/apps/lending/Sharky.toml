@@ -1,0 +1,66 @@
+[app]
+# Lower cased application name
+value = "sharky"
+# Formatted application name to present in app
+label = "Sharky"
+# Array of categories, max of 3
+categories = ["lending"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Escrow-less NFT lending protocol! Lend $SOL to earn $SOL 💸 Borrow Solana instantly against your Solana NFTs"
+# Long description used in app details
+long = """
+## What does Sharky do? 
+> Sharky is a platform where anyone can make loan offers for NFTs in a collection, and holders choose the NFT, left-click-borrow instantly. You make money as a lender. You get cash on-demand as a borrower. 
+
+You can think of Sharky as decentralized, demand-driven, NFT-backed loans. Borrowers can use any NFT from the collection to get a loan. And lenders bid on a mystery NFT from the verified collection. We do a lot to simplify this process, so there’s no headache of crunching numbers or understanding boring terms. This bitepaper will cover all you need to live your best degen lyfe, and make money while doing it. WAGMI.
+
+## How does Sharky do this? 
+You know how most games have a winner and a loser, and you have to be one of them? Those are called *zero-sum games*. You can’t both win. If you get a good deal, someone gets a bad deal. Sharky looks for ways for *everyone* to win. 
+
+Short term loans usually have high interest, so Lenders can stand to make a lot of money in a short amount of time. Borrowers may have immediate need for cash now (looking at that sweeet mint), but nothing left in their wallet besides some shiny NFTs. We connect the Lender and Borrower, and they both get a good deal. Even in the case where the Borrower fails to pay the loan back, the Lender is still protected because the NFT is worth more than what they paid to offer the loan. Make sense? Details on how this works below. 
+
+## How do borrowers get the best deal? 
+In traditional finance, there’s a concept called the *orderbook*. But that’s jargon. 
+
+Imagine this. You ask to borrow some cash from your frens. They say “sure, but you’re doing laundry if you don’t pay back 😏”. Fren 1 offers $200. Fren 2 offers $250. Which do you take? 
+
+In most cases, even if you don’t need $250, you might as well take it. Just in case you end up having to do laundry, you got paid more to deal with stinky socks. 
+
+You can think of Sharky the same way. But instead of using the laundry chore as collateral, you have an NFT for collateral. The orderbook is just where we store all the offers you can get for a loan. And when you borrow, we give you the best deal in the book. The best part is, lenders can make offers any time. This is the key to Sharky’s convenience — instant loans. So when you need cash, you always get the current best deal.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/sharky.svg"
+# URL to app home page
+website = "https://sharky.fi/"
+# URL to app
+application = "https://sharky.fi/"
+# Link to github
+github = "https://github.com/sharkyfi"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["SharkyFi"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["sharkyfi"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
