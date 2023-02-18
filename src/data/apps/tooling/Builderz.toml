@@ -1,0 +1,47 @@
+[app]
+# Lower cased application name
+value = "builderz"
+# Formatted application name to present in app
+label = "Builderz"
+# Array of categories, max of 3
+categories = ["tooling"]
+# Curation category flag
+is_curated = false
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "In #Builderz we trust. Solving #web3 problems. Powered by @cynova__ 🚀"
+# Long description used in app details
+long = "Here at Builderz we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/builderz.jpg"
+# URL to app home page
+website = "https://builderz.build/"
+# URL to app
+application = "https://b-pay.builderz.build/"
+# Link to github
+github = "https://github.com/Cynova-Group"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["builderz__"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["cynova-enterprise"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
