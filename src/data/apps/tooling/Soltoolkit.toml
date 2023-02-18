@@ -1,0 +1,180 @@
+[app]
+# Lower cased application name
+value = "soltoolkit"
+# Formatted application name to present in app
+label = "SolToolkit"
+# Array of categories, max of 3
+categories = ["tooling"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "SolToolkit is a Swiss Army knife for Solana devs. It is a Node.js library with 4 modules, such as ConnectionManager for switching between RPC endpoints and using the fastest endpoint available."
+# Long description used in app details
+long = """
+# Overview
+
+SolToolkit is a Swiss Army knife for Solana devs. It is a Node.js library with 4 modules, such as ConnectionManager for switching between RPC endpoints and using the fastest endpoint available. 
+
+# Installation
+
+```
+$ npm install -s @solworks/soltoolkit-sdk
+```
+
+# Modules
+
+## ConnectionManager
+
+ConnectionManager is a singleton class that manages web3.js Connection(s). It takes the following parameters on initialization using the async `getInstance()` method:
+
+```
+{
+    network: Cluster;
+    endpoint?: string;
+    endpoints?: string[];
+    config?: ConnectionConfig;
+    commitment?: Commitment;
+    mode?: Mode;
+}
+```
+
+### **Parameters**
+
+- `network` is the cluster to connect to, possible values are 'mainnet-beta', 'testnet', 'devnet', 'localnet'. This is required. If you do not pass in any values for `endpoint` or `endpoints`, the default endpoints for the network will be used.
+- `endpoint` is a single endpoint to connect to. This is optional.
+- `endpoints` is an array of endpoints to connect to. This is optional.
+- `config` is a web3.js ConnectionConfig object. This is optional.
+- `commitment` is the commitment level to use for transactions. This is optional, will default to 'max'.
+- `mode` is the Mode for the ConnectionManager. This is optional, will default to 'single'. Possible values are:
+    - 'single' - Uses the `endpoint` param, that falls back to the first endpoint provided in `endpoints`, that falls back to the default endpoints for the network.
+    - 'first' - Uses the first endpoint provided in `endpoints`. Throws an error if no endpoints are provided.
+    - 'last' - Uses the last endpoint provided in `endpoints`. Throws an error if no endpoints are provided.
+    - 'round-robin' - Uses the endpoints provided in `endpoints` in a round-robin fashion (cycles through each endpoint in sequence starting from the first). Throws an error if no endpoints are provided.
+    - 'random' - Uses a random endpoint provided in `endpoints`. Throws an error if no endpoints are provided.
+    - 'fastest' - Uses the fastest endpoint provided in `endpoints`. Throws an error if no endpoints are provided.
+    - 'highest-slot' - Uses the endpoint with the highest slot provided in `endpoints`. Throws an error if no endpoints are provided.
+
+### **Methods**
+
+- `getInstance()` - Returns the singleton instance of the ConnectionManager. This method is async and must be awaited.
+- `getInstanceSync()` - Returns the singleton instance of the ConnectionManager. This method is synchronous. This method should only be used after initializing the ConnectionManager with `getInstance()`.
+- `conn()` - Returns a web3.js connection. This method will update the summary for each RPC to determine the 'fastest' or 'highest slot' endpoint. This method is async and must be awaited.
+- `connSync()` - Returns a web3.js connection. This method will use fastest' or 'highest slot' endpoint determined during initialization. This method is synchronous.
+
+### Example
+
+See [below](https://www.notion.so/SolToolkit-fdfee41b88834c9b80122629999f06b2).
+
+## TransactionBuilder
+
+TransactionBuilder is a class that can generate a [web3.js Transaction](https://solana-labs.github.io/solana-web3.js/classes/Transaction.html). It takes no parameters on intialization. It stores instructions in an array during its lifetime.
+
+### **Methods**
+
+- `create()` - Creates a new instance of TransactionBuilder. You should use one instance per transaction.
+- `addCreateTokenAccountIx()` - Adds an instruction to initialize a token account for a given user IF REQUIRED.
+- `addSolTransferIx()` - Adds an instruction to transfer SOL from one account to another. Sender must sign the transaction.
+- `addSplTransferIx()` - Adds an instruction to transfer [SPL tokens](https://spl.solana.com/token) from one account to another. Sender must sign the transaction.
+- `addMemoIx()` - Adds an instruction with containing a memo.
+- `addComputeBudgetIx()` - Adds an instruction requesting to increase the [transaction’s compute budget](https://docs.solana.com/developing/programming-model/runtime#compute-budget).
+- `addIx()` - Adds a custom instruction.
+- `reset()` - Clears out the array of instructions.
+- `build()` - Builds and returns a [Transaction instance](https://solana-labs.github.io/solana-web3.js/classes/Transaction.html) with instructions added to TransactionBuilder attached.
+
+### Example
+
+[See below.](https://www.notion.so/SolToolkit-fdfee41b88834c9b80122629999f06b2)
+
+## Logger
+
+Logger provides a consistent format to console logs which includes the current time, responsible module name, verbosity and logged message. 
+
+### **Methods**
+
+- `debug()` - Prints a debug message.
+- `info()` - Prints an info message.
+- `warn()` - Prints a warning message.
+- `error()` - Prints an error message.
+- `makeError()` - Throws an error with custom arguments.
+
+### Example
+
+```
+import { Logger } from "@solworks/soltoolkit-sdk";
+
+const logger = new Logger("example");
+logger.debug("gm world");
+```
+
+## Disperse
+
+Disperse is a class providing convenience methods to generate a number of transactions for bulk distribution of SOL or SPL tokens. It takes the following parameters on initialization using the static `create()` method:
+
+```
+{
+    tokenType: TokenType;
+    mint?: PublicKey;
+    transfers?: ITransfer[];
+    recipients?: PublicKey[];
+    fixedAmount?: number;
+    sender: PublicKey;
+}
+```
+
+### **Parameters**
+
+- `tokenType` is the type of token we want to transfer, one of`SOL` or `SPL`.
+- `mint` is the mint address (public key) of the SPL token, if `SPL` token is specified for `tokenType`. This is optional.
+- `fixedAmount` is a number representing how many tokens should be sent to each recipient.  This is optional. If `fixedAmount` is not given, `transfers` must be given.
+- `recipients` is a list of users to receive the SPL or SOL tokens. This is optional however if `fixedAmount` is given, `recipients` must be given.
+- `transfers` is a list of `ITransfer` objects (see below). This is optional.
+
+```
+interface ITransfer {
+    recipient: string;                  // public key in base58 format
+    amount: number;                     // lamports
+    associatedTokenAccount?: string;    // optional for spl
+}
+```
+
+- `sender` is the public key of the sender (and signer).
+
+### **Methods**
+
+- `create()` - Returns an instance of Disperse.
+- `generateTransactions()` - Generates an array of transactions based on parameters passed in `create()` method.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/SOLTOOLKIT%20LOGO.png"
+# URL to app home page
+website = "https://soltoolkit.dev/"
+# URL to app
+application = "https://soltoolkit.dev/"
+# Link to github
+github = "https://github.com/SolWorks-Dev"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["solworks_"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["sujiko"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
