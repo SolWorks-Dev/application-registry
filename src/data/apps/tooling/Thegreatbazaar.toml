@@ -1,0 +1,47 @@
+[app]
+# Lower cased application name
+value = "thegreatbazaar"
+# Formatted application name to present in app
+label = "The Great Bazaar"
+# Array of categories, max of 3
+categories = ["tooling"]
+# Curation category flag
+is_curated = false
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Buy and Sell any Solana SPL tokens on the open market. Anybody can list a token with a 2% sales fee. Trade your tokens in a safe and exclusive environment."
+# Long description used in app details
+long = "The Great Bazaar is a token market where you can buy and sell any Solana SPL token on the open market. Anybody can list a token in a safe and exclusive environment. The mission is to build a variety of tools, for builders and community members in the Solana ecosystem. The open token marketplace is the first of many tools and ideas in the pipeline."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://thegreatbazaar.xyz/assets/images/f-logo.svg"
+# URL to app home page
+website = "https://thegreatbazaar.xyz/"
+# URL to app
+application = "https://thegreatbazaar.xyz/"
+# Link to github
+github = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["greatbazaarNFT"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["zbjmsKYZxm"]
+
+# array of medium accounts
+# username or link only
+medium = []
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = []
