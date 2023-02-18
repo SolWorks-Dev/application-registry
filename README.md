@@ -18,7 +18,7 @@ yarn add @solapps/application-registry
 
 For example, to add a new application called Raydium to the AMM category, we would copy the `example.toml` file to the `apps` folder and rename the copied file to `Raydium.toml`.
 
-Alternatively you can contact the SolWorks team on [Discord](https://discord.com/invite/qfEGBPRyUt) or [Twitter](https://twitter.com/Solworks_) to request that your application be added to the registry.
+Alternatively you can contact the SolWorks team on [Discord](https://discord.com/invite/sujiko) or [Twitter](https://twitter.com/Solworks_) to request that your application be added to the registry.
 
 ## Building the registry
 Do not edit `app-list.json`
