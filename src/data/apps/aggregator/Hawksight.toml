@@ -1,0 +1,54 @@
+[app]
+# Lower cased application name
+value = "hawksight"
+# Formatted application name to present in app
+label = "Hawksight"
+# Array of categories, max of 3
+categories = ["aggregator"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Hawksight allows you to grow your SOL & USDC from the largest selection of DeFi yield strategies automated in 1-click while giving you full control over your funds at each step."
+# Long description used in app details
+long = """
+Hawksight aggregates DeFi protocols at scale, and routes users to the highest APY strategies within their risk preference. It allows you to grow your SOL & USDC from the largest selection of DeFi yield strategies automated in 1-click while giving you full control over your funds at each step. 
+
+## Why choose Hawksight? 
+1) 1-Stop Shop - Earn the best yield on your SOL and USDC with the smartest navigator of Solana DeFi protocols. Choose your preferred strategy from our list of strategies across 4 protocols and start earning in 1 click! No swapping, staking, pairing, bridging, or pooling needed! 
+2) Flexible Deposits and Withdrawals - Deposit any amount of SOL or USDC to start earning yield. Claim rewards and withdraw your funds anytime! No minimum deposits or lockups! 
+3) Secure & Non-Custodial - Decentralized vaults keep depositors in full control over their funds. Hawksight is battle-tested through internal audits, multiple external audits (CertiK & Sec3), and will partner with DeFi insurance protocols.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/hawksight.svg"
+# URL to app home page
+website = "https://hawksight.co/"
+# URL to app
+application = "https://hawksight.co/"
+# Link to github
+github = "https://github.com/hawksightco"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["HawksightCo"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["nweZsqTVfu"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://hawksight.medium.com"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["hawksight"]
