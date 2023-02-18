@@ -1,0 +1,8 @@
+# Category name used as value, no spaces, no special characters
+value = "tooling"
+
+# Formatted category name to present in app as tag
+tag_label = "Tooling"
+
+# Formatted category name to present in app as heading
+heading_label = "Developer Tooling"
