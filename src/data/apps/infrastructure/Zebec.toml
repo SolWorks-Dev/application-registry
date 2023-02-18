@@ -1,0 +1,47 @@
+[app]
+# Lower cased application name
+value = "zebecprotocol"
+# Formatted application name to present in app
+label = "Zebec Protocol"
+# Array of categories, max of 3
+categories = ["infrastructure"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = false
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Zebec is a multi-chain continuous settlement protocol. It introduces streaming finance technology, provides an easy to use Multisig Treasury Management app for projects to safely manage assets, as well as Per-Second token distribution and vesting"
+# Long description used in app details
+long = "Zebec is a multi-chain (Solana and BNB) continuous settlement protocol. It introduces streaming finance technology, provides an easy to use Multi-sig Treasury Management app for projects to safely manage assets, as well as Per-Second token distribution and vesting services. The project started back in Nov 2021 in the Solana blockchain. Since then, Zebec has raised over $40M in Series Funding, over 100 Solana/BNB Chain projects use Zebec’s product suite and amassed a large community with over 200k Twitter Followers."
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/zebec.svg"
+# URL to app home page
+website = "https://zebec.io/"
+# URL to app
+application = "https://app.zebec.io/"
+# Link to github
+github = "https://github.com/Zebec-protocol/"
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["Zebec_HQ"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = ["jUwZ3cHauZ"]
+
+# array of medium accounts
+# username or link only
+medium = ["https://medium.com/zebec-protocol"]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["zebecprotocol"]
