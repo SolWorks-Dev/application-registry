@@ -6,7 +6,7 @@ label = "BONK"
 # Array of categories, max of 3
 categories = ["memecoin"]
 # Curation category flag
-is_curated = true
+is_curated = false
 # Deprecated flag
 is_deprecated = false
 
