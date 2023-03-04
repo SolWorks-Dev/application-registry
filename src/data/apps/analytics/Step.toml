@@ -86,6 +86,24 @@ name = "Solana Crossroads"
 # App link url
 url = "https://www.solanacrossroads.com/"
 
+[[urls.other]]
+# App link name
+name = "Step Analytics App"
+# App link url
+url = "https://analytics.step.finance/"
+
+[[urls.other]]
+# App link name
+name = "Step Research Reports"
+# App link url
+url = "https://www.step.finance/reports"
+
+[[urls.other]]
+# App link name
+name = "Step Validator"
+# App link url
+url = "https://www.validators.app/validators/StepLJgojR54f8M4nfr5uxjBBMddWjEwnKs4TnrnmRd?locale=en&network=mainnet"
+
 
 [socials]
 # array of associated twitter accounts, max 5 
