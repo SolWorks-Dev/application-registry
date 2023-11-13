@@ -32,9 +32,9 @@ To learn more, check out our [docs](https://solworks.notion.site/Sujiko-772d2b62
 # webp3 format with size < 512x512px
 logo = "https://raw.githubusercontent.com/SolWorks-Dev/resources/master/src/images/logos/SUJIKO%20LOGO.png"
 # URL to app home page
-website = "https://sujiko.dev/"
+website = "https://sujiko.trade/"
 # URL to app
-application = "https://sujiko.dev/"
+application = "https://app.sujiko.trade/"
 # Link to github
 github = "https://github.com/SolWorks-Dev"
 

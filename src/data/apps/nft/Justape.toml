@@ -6,7 +6,7 @@ label = "Just Ape"
 # Array of categories, max of 3
 categories = ["nft"]
 # Curation category flag
-is_curated = true
+is_curated = false
 
 
 [description]
