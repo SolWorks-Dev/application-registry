@@ -7,6 +7,8 @@ label = "Aldrin"
 categories = ["amm"]
 # Curation category flag
 is_curated = false
+# Deprecated flag
+is_deprecated = true
 
 
 [description]

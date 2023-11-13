@@ -7,6 +7,8 @@ label = "01"
 categories = ["derivatives"]
 # Curation category flag
 is_curated = false
+# Deprecated flag
+is_deprecated = true
 
 
 [description]
