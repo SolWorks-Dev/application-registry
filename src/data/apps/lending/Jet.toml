@@ -31,11 +31,11 @@ github = "https://github.com/jet-lab/"
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["https://twitter.com/jetprotocol"]
+twitter = ["jetprotocol"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = ["https://discord.gg/RW2hsqwfej"]
+discord = ["RW2hsqwfej"]
 
 # array of medium accounts
 # username or link only

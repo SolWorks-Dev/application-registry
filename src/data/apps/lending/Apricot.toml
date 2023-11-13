@@ -36,7 +36,7 @@ github = "https://github.com/Apricot-Finance"
 [socials]
 # array of associated twitter accounts, max 5 
 # username or link only
-twitter = ["https://twitter.com/ApricotFinance"]
+twitter = ["ApricotFinance"]
 
 # array of discord invites
 # only include the text after `discord.gg/`

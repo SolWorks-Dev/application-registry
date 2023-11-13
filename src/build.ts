@@ -37,57 +37,63 @@ class DataBuilder {
             }
 
             if (!app.app.value || !app.app.value.trim()) {
-                throw new Error(`App value ${app.app.label} has no value`);
+                throw new Error(`App value ${app.app.label} has no value in category ${category.value}`);
             }
 
             if (!app.app.label || !app.app.label.trim()) {
-                throw new Error(`App ${app.app.value} has no label`);
+                throw new Error(`App ${app.app.value} has no label in category ${category.value}`);
             }
 
             if (app.app.categories.length === 0) {
-                throw new Error(`App ${app.app.label} has no categories`);
+                throw new Error(`App ${app.app.label} has no categories in category ${category.value}`);
             }
 
             if (!app.description.short || !app.description.short.trim()) {
-                throw new Error(`App ${app.app.value} has no short description`);
+                throw new Error(`App ${app.app.value} has no short description in category ${category.value}`);
             }
 
             if (!app.description.long || !app.description.long.trim()) {
-                throw new Error(`App ${app.app.value} has no long description`);
+                throw new Error(`App ${app.app.value} has no long description in category ${category.value}`);
             }
 
             if (!app.urls.logo || !app.urls.logo.trim()) {
-                throw new Error(`App ${app.app.value} has no logo url`);
+                throw new Error(`App ${app.app.value} has no logo url in category ${category.value}`);
             }
 
             if (!app.urls.website || !app.urls.website.trim()) {
-                throw new Error(`App ${app.app.value} has no website url`);
+                throw new Error(`App ${app.app.value} has no website url in category ${category.value}`);
             }
 
             if (!app.urls.application || !app.urls.application.trim()) {
-                throw new Error(`App ${app.app.value} has no application url`);
+                throw new Error(`App ${app.app.value} has no application url in category ${category.value}`);
             }
 
             if (app.socials.twitter) {
-                if (app.socials.twitter.includes('twitter' || app.socials.twitter.includes('@'))) {
-                    throw new Error(`App ${app.app.value} has an invalid twitter handle`);
+                for (const twitter of app.socials.twitter) {
+                    if (twitter.includes('twitter')) {
+                        throw new Error(`App ${app.app.value} has an invalid twitter handle in category ${category.value}`);
+                    }
                 }
             }
 
             if (app.socials.discord) {
-                if (app.socials.discord.includes('discord.gg')) {
-                    throw new Error(`App ${app.app.value} has an invalid discord invite`);
+                for (const discord of app.socials.discord) {
+                    if (discord.includes('discord.gg')) {
+                        throw new Error(`App ${app.app.value} has an invalid discord invite in category ${category.value}`);
+                    }
                 }
             }
 
             if (app.socials.telegram) {
-                if (app.socials.telegram.includes('t.me')) {
-                    throw new Error(`App ${app.app.value} has an invalid telegram invite`);
+                for (const telegram of app.socials.telegram) {
+                    if (telegram.includes('t.me')) {
+                        throw new Error(`App ${app.app.value} has an invalid telegram invite in category ${category.value}`);
+                    }
                 }
             }
 
             if (app.urls.github !== "" && !app.urls.github.includes('github')) {
-                throw new Error(`App ${app.app.value} has an invalid github link`);
+                throw new Error(`App ${app.app.value} has an invalid github link in category ${category.value}`);
             }
         }
 
