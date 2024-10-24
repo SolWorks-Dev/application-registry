@@ -1,0 +1,67 @@
+[app]
+# Lower cased application name
+value = "cryptochill"
+# Formatted application name to present in app
+label = "CryptoChill"
+# Array of categories, max of 3
+categories = ["ecommerce"]
+# Curation category flag
+is_curated = true
+# Deprecated flag
+is_deprecated = true
+
+[description]
+# Short description used in search bars, mini app cards
+short = "Accept payment in SOL and many other cryptos"
+# Long description used in app details
+long = """
+CryptoChill is a highly customizable and scalable crypto payment gateway processing an average daily volume of $5 million. We enable businesses to accept SOL, USDT, and USDC payments on the Solana network seamlessly.
+
+We also support payments in BTC, ETH, XRP, TRX, TON, and many other cryptos across all kinds and sizes of enterprise. CryptoChill can provide a potentially limitless number of maximum-security MPC wallets to match your growing client base and transaction flow.
+
+With flexible integration, the gateway can be used via the CryptoChill dashboard, an SDK or full-featured API, third-party cashier services, or CryptoChill's WooCommerce WordPress plugin.
+"""
+
+
+[urls]
+# URL used in app got logo
+# webp3 format with size < 512x512px
+logo = "https://github.com/alittleframe/assets/blob/main/cryptochill-logo.png"
+# URL to app home page
+website = "https://cryptochill.com/"
+# URL to app
+application = "https://cryptochill.com/app/"
+# Link to github
+github = "https://github.com/cryptochill/"
+
+# Additional app link
+[[urls.other]]
+# App link name
+name = ""
+# App link URL
+url = ""
+
+# Additional app link
+[[urls.other]]
+# app link name
+name = ""
+# app link URL
+url = ""
+
+
+[socials]
+# array of associated twitter accounts, max 5 
+# username or link only
+twitter = ["CryptoChill"]
+
+# array of discord invites
+# only include the text after `discord.gg/`
+discord = [""]
+
+# array of medium accounts
+# username or link only
+medium = [""]
+
+# array of telegram groups
+# only include the text after `t.me/`
+telegram = ["CryptoChillGateway"]
