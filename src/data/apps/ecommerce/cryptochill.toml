@@ -8,7 +8,7 @@ categories = ["ecommerce"]
 # Curation category flag
 is_curated = true
 # Deprecated flag
-is_deprecated = true
+is_deprecated = false
 
 [description]
 # Short description used in search bars, mini app cards
@@ -26,28 +26,13 @@ With flexible integration, the gateway can be used via the CryptoChill dashboard
 [urls]
 # URL used in app got logo
 # webp3 format with size < 512x512px
-logo = "https://github.com/alittleframe/assets/blob/main/cryptochill-logo.png"
+logo = "https://github.com/alittleframe/assets/blob/main/cryptochill-logo.png?raw=true"
 # URL to app home page
 website = "https://cryptochill.com/"
 # URL to app
 application = "https://cryptochill.com/app/"
 # Link to github
 github = "https://github.com/cryptochill/"
-
-# Additional app link
-[[urls.other]]
-# App link name
-name = ""
-# App link URL
-url = ""
-
-# Additional app link
-[[urls.other]]
-# app link name
-name = ""
-# app link URL
-url = ""
-
 
 [socials]
 # array of associated twitter accounts, max 5 
@@ -56,11 +41,11 @@ twitter = ["CryptoChill"]
 
 # array of discord invites
 # only include the text after `discord.gg/`
-discord = [""]
+discord = []
 
 # array of medium accounts
 # username or link only
-medium = [""]
+medium = []
 
 # array of telegram groups
 # only include the text after `t.me/`
